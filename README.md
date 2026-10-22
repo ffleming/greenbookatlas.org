@@ -65,7 +65,7 @@ See [`LICENSE.md`](LICENSE.md) for full legal notices.
 | Claudia Engel / Stanford University | Supplemental tables in 11 editions (`1937`-`1941`, `1946`-`1950`, `1952/supplemental/GreenBook*`) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Claudia Engel ([`github.com/cengel/GreenBook`](https://github.com/cengel/GreenBook)). Primary `listings.*` and `overlay.*` files do not derive from this source. |
 | Mapping software & basemaps | `index.html`, `<edition>/map.html` | [BSD 2-Clause](https://opensource.org/licenses/BSD-2-Clause) (Leaflet & Leaflet.heat); provider terms | Leaflet &copy; Volodymyr Agafonkin; tiles &copy; Google Maps, &copy; [OpenStreetMap contributors](https://www.openstreetmap.org/copyright) (ODbL), &copy; [CARTO](https://carto.com/attributions) (CC BY 3.0). |
 
-## Excluded datasets {#excluded-datasets}
+## Excluded datasets
 
 - The 1938 and 1940 versions available on Internet Archive prohibit derivative works. As such, we use NYPL's public-domain scans instead.
 - NYPL does not provide 1966-1967 scans because they are still under copyright. We include the non-copyrightable factual directory listings.

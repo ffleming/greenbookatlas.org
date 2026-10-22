@@ -369,13 +369,54 @@ def build_edition_map_html(ed_data: dict, records: list[dict], mymaps_files: lis
         f'<a class="btn btn-primary" href="{mf}" download>Download {ed_dir} KML {idx + 1} of {total_splits}</a>'
         for idx, mf in enumerate(mymaps_files)
     )
+    ed_title_esc = html.escape(ed_data["title"], quote=True)
+    ed_ctx_esc = html.escape(ed_data["historical_context"], quote=True)
+    page_title = f"{ed_dir} Green Book Map ({len(records):,} Locations) | {ed_title_esc} — Green Book Atlas"
+    meta_desc = f"Interactive map of the {ed_dir} edition of {ed_title_esc} ({len(records):,} geocoded locations). {ed_ctx_esc} Download KML for Google Maps, GeoJSON, CSV, and OCR text."
+    canonical_url = f"https://greenbookatlas.org/{ed_dir}/map.html"
+    ed_nav_links = " &middot; ".join(
+        f'<a href="../{e}/map.html">{e}</a>' for e in EDITION_DIRS
+    )
+    ed_jsonld = json.dumps({
+        "@context": "https://schema.org",
+        "@type": ["WebPage", "Dataset"],
+        "name": f"{ed_data['title']} Interactive Map & Geocoded Dataset ({ed_dir})",
+        "description": f"Interactive map and geocoded dataset of {len(records):,} welcoming establishments from {ed_data['title']}. {ed_data['historical_context']}",
+        "url": canonical_url,
+        "temporalCoverage": ed_dir,
+        "isAccessibleForFree": True,
+        "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "isPartOf": {
+            "@type": "Dataset",
+            "name": "Green Book Atlas (1937–1967)",
+            "url": "https://greenbookatlas.org/"
+        },
+        "distribution": [
+            {"@type": "DataDownload", "encodingFormat": "application/vnd.google-earth.kml+xml", "contentUrl": f"https://greenbookatlas.org/{ed_dir}/overlay.kml"},
+            {"@type": "DataDownload", "encodingFormat": "application/geo+json", "contentUrl": f"https://greenbookatlas.org/{ed_dir}/overlay.geojson"},
+            {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": f"https://greenbookatlas.org/{ed_dir}/listings.csv"},
+            {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"https://greenbookatlas.org/{ed_dir}/listings.json"}
+        ]
+    }, separators=(",", ":"))
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Green Book Atlas - {ed_dir} Edition</title>
+<title>{page_title}</title>
+<meta name="description" content="{meta_desc}"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="{canonical_url}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Green Book Atlas"/>
+<meta property="og:title" content="{page_title}"/>
+<meta property="og:description" content="{meta_desc}"/>
+<meta property="og:url" content="{canonical_url}"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="{page_title}"/>
+<meta name="twitter:description" content="{meta_desc}"/>
+<script type="application/ld+json">{ed_jsonld}</script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
@@ -562,6 +603,9 @@ def build_edition_map_html(ed_data: dict, records: list[dict], mymaps_files: lis
 
     <h3>Where can I find the raw data and source code?</h3>
     <p>On GitHub at <a href="https://github.com/ffleming/greenbookatlas.org" target="_blank">github.com/ffleming/greenbookatlas.org</a>.</p>
+
+    <h3>Standalone edition maps</h3>
+    <p>{ed_nav_links}</p>
   </div>
 </div>
 
@@ -915,13 +959,98 @@ def build_master_index_html(all_editions_meta: list[dict], unique_pts: list[list
     pts_json = json.dumps(unique_pts, separators=(",", ":"))
     styles_json = json.dumps(CATEGORY_STYLES, separators=(",", ":"))
     unique_count = len(unique_pts)
+    master_title = "Interactive Green Book Map (1937–1967) | The Negro Motorist Green Book Atlas"
+    master_desc = (
+        f"Interactive map of The Negro Motorist Green Book and Travelers' Green Book (1937–1967). "
+        f"Explore {unique_count:,} geocoded hotels, tourist homes, restaurants, and service stations across "
+        f"all 24 editions ({total_raw_count:,} listings), with Google Maps KML, GeoJSON, CSV, and NYPL OCR downloads."
+    )
+    master_ed_links = " &middot; ".join(
+        f'<a href="{m["edition"]}/map.html">{m["edition"]}</a>' for m in all_editions_meta
+    )
+    master_jsonld = json.dumps({
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": ["WebApplication", "Dataset"],
+                "name": "Green Book Atlas: Interactive Map of The Negro Motorist Green Book (1937–1967)",
+                "alternateName": ["Green Book Map", "The Negro Motorist Green Book Map", "Travelers' Green Book Map"],
+                "description": master_desc,
+                "url": "https://greenbookatlas.org/",
+                "applicationCategory": "ReferenceApplication",
+                "operatingSystem": "All",
+                "isAccessibleForFree": True,
+                "temporalCoverage": "1937/1967",
+                "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+                "keywords": [
+                    "Green Book map",
+                    "Negro Motorist Green Book map",
+                    "Travelers Green Book",
+                    "Victor Hugo Green",
+                    "Green Book locations",
+                    "Green Book KML",
+                    "Green Book GeoJSON",
+                    "African American travel history"
+                ],
+                "hasPart": [
+                    {
+                        "@type": "Dataset",
+                        "name": f"{m['title']} ({m['edition']})",
+                        "url": f"https://greenbookatlas.org/{m['edition']}/map.html"
+                    }
+                    for m in all_editions_meta
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What is Green Book Atlas?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": f"Green Book Atlas (greenbookatlas.org) contains interactive map overlays, geocoded directory datasets, and page-level OCR transcriptions for all 24 surviving geocoded editions of The Negro Motorist Green Book and Travelers' Green Book ({unique_count:,} unique establishments across {total_raw_count:,} total listings)."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "How do I use these Green Book map overlays with Google Maps?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Click Downloads in the sidebar to download split Google-compatible KML files for your chosen edition, import them into Google My Maps (google.com/mymaps), and open your saved map in Google Maps to add stops along your route."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Why are the 1936, 1942-1945, and 1965 Green Book editions missing?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No copy of the 1936 prototype edition is known to survive in any public archive; publication was suspended from 1942 to 1945 during World War II rationing; and the final two issues were published as multi-year editions (1963-64 and 1966-67)."
+                        }
+                    }
+                ]
+            }
+        ]
+    }, separators=(",", ":"))
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Green Book Atlas (1937-1967)</title>
+<title>{master_title}</title>
+<meta name="description" content="{master_desc}"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://greenbookatlas.org/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Green Book Atlas"/>
+<meta property="og:title" content="{master_title}"/>
+<meta property="og:description" content="{master_desc}"/>
+<meta property="og:url" content="https://greenbookatlas.org/"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="{master_title}"/>
+<meta name="twitter:description" content="{master_desc}"/>
+<script type="application/ld+json">{master_jsonld}</script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
@@ -1087,6 +1216,9 @@ def build_master_index_html(all_editions_meta: list[dict], unique_pts: list[list
 
     <h3>Where can I find the raw data and source code?</h3>
     <p>On GitHub at <a href="https://github.com/ffleming/greenbookatlas.org" target="_blank">github.com/ffleming/greenbookatlas.org</a>.</p>
+
+    <h3>Standalone edition maps</h3>
+    <p>{master_ed_links}</p>
   </div>
 </div>
 
@@ -1674,7 +1806,26 @@ def main():
     with open(os.path.join(BASE_DIR, "index.html"), "w", encoding="utf-8") as mhf:
         mhf.write(master_html)
 
-    print("[+] Successfully generated all KML, KMZ, My Maps splits, GeoJSON, HTML maps, and READMEs.")
+    # Build sitemap.xml and robots.txt for public search engine indexing
+    urls = ["https://greenbookatlas.org/"] + [
+        f"https://greenbookatlas.org/{ed_dir}/map.html" for ed_dir in EDITION_DIRS
+    ]
+    sitemap_lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ]
+    for u in urls:
+        priority = "1.0" if u.endswith(".org/") else "0.8"
+        sitemap_lines.append(f"  <url><loc>{u}</loc><priority>{priority}</priority></url>")
+    sitemap_lines.append("</urlset>\n")
+    with open(os.path.join(BASE_DIR, "sitemap.xml"), "w", encoding="utf-8") as sf:
+        sf.write("\n".join(sitemap_lines))
+
+    robots_txt = "User-agent: *\nAllow: /\n\nSitemap: https://greenbookatlas.org/sitemap.xml\n"
+    with open(os.path.join(BASE_DIR, "robots.txt"), "w", encoding="utf-8") as rf:
+        rf.write(robots_txt)
+
+    print("[+] Successfully generated all KML, KMZ, My Maps splits, GeoJSON, HTML maps, sitemap.xml, robots.txt, and READMEs.")
 
 
 if __name__ == "__main__":
