@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>The Negro Motorist Green Book: 1937 (All 86 Listings)</name>
+    <description>Published in 1937 by Victor H. Green in New York City (16 pages, price 25 cents). While the 1936 first edition has no known surviving copies in public archives, this 1937 volume is the earliest extant edition, covering the New York metropolitan area, Westchester, and northern New Jersey.</description>
+    <Style id="cat_tourist_home">
+      <IconStyle>
+        <color>ff327d2e</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_hotel_motel">
+      <IconStyle>
+        <color>ffc06515</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-Blank.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_restaurant">
+      <IconStyle>
+        <color>ff006cef</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_nightlife">
+      <IconStyle>
+        <color>ffaa248e</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_auto">
+      <IconStyle>
+        <color>ff2828c6</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_personal_care">
+      <IconStyle>
+        <color>ff8f8300</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_other">
+      <IconStyle>
+        <color>ff414c6d</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+      <Placemark id="gb_68246">
+        <name>Belmont Lake</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Belmont Lake</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>625 Belmont Ave.</td></tr><tr><td><b>Location:</b></td><td>Babylon, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr><tr><td><b>Archival Notes:</b></td><td>Address from Google maps</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>625 Belmont Ave.</value></Data><Data name="City"><value>Babylon</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Address from Google maps</value></Data></ExtendedData>
+        <Point><coordinates>-73.346433,40.734427,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68247">
+        <name>Westview Cottage Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Westview Cottage Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Eatontown, NJ, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Della Weaver (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Della Weaver</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Eatontown</value></Data><Data name="State"><value>NJ</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-74.059741,40.304636,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68248">
+        <name>Bethpage State Park</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Bethpage State Park</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>1001 Stewart Ave.</td></tr><tr><td><b>Location:</b></td><td>Bethpage, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1001 Stewart Ave.</value></Data><Data name="City"><value>Bethpage</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.485147,40.755877,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68249">
+        <name>Harlem on the Hudson</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Harlem on the Hudson</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Hudson Terrace Road</td></tr><tr><td><b>Location:</b></td><td>Englewood Cliffs, NJ, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Hudson Terrace Road</value></Data><Data name="City"><value>Englewood Cliffs</value></Data><Data name="State"><value>NJ</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.953443,40.871314,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68250">
+        <name>Coney Island</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Coney Island</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>801 Riegelmann Boardwalk</td></tr><tr><td><b>Location:</b></td><td>Brooklyn, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>801 Riegelmann Boardwalk</value></Data><Data name="City"><value>Brooklyn</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.943622,40.576783,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68251">
+        <name>The Aquarium</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">The Aquarium</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>602 Surf Ave.</td></tr><tr><td><b>Location:</b></td><td>Brooklyn, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>602 Surf Ave.</value></Data><Data name="City"><value>Brooklyn</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.975731,40.575112,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68252">
+        <name>V. Everitt Macy Park</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">V. Everitt Macy Park</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Saw Mill River Rd.</td></tr><tr><td><b>Location:</b></td><td>Ardsley, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Saw Mill River Rd.</value></Data><Data name="City"><value>Ardsley</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.849498,41.009919,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68253">
+        <name>Croton Point Beach</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Croton Point Beach</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>1 Croton Point Ave.</td></tr><tr><td><b>Location:</b></td><td>Croton-On-Hudson, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1 Croton Point Ave.</value></Data><Data name="City"><value>Croton-On-Hudson</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.882939,41.192569,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68254">
+        <name>Heckscher State Park</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Heckscher State Park</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>1 Heckscher State Pkwy</td></tr><tr><td><b>Location:</b></td><td>East Islip, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1 Heckscher State Pkwy</value></Data><Data name="City"><value>East Islip</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.173559,40.741222,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68255">
+        <name>Fire Island</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Fire Island</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Long Island, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr><tr><td><b>Archival Notes:</b></td><td>Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Long Island</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.</value></Data></ExtendedData>
+        <Point><coordinates>-73.94875,40.74482,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68256">
+        <name>Clark&#x27;s Tavern</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Clark&#x27;s Tavern</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>91 Saw Mill River Road</td></tr><tr><td><b>Location:</b></td><td>Elmsford, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>91 Saw Mill River Road</value></Data><Data name="City"><value>Elmsford</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.821703,41.052146,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68257">
+        <name>Park Tavern</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Park Tavern</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Fifth Ave. and Valley Place</td></tr><tr><td><b>Location:</b></td><td>Larchmont, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>John Olsey, Lucille Boyd (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>John Olsey, Lucille Boyd</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>Fifth Ave. and Valley Place</value></Data><Data name="City"><value>Larchmont</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.76728,40.931204,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68258">
+        <name>The Favorite Grill</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">The Favorite Grill</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>154 S. 7th Ave.</td></tr><tr><td><b>Location:</b></td><td>Mt. Vernon, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>John B. Steward (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>John B. Steward</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>154 S. 7th Ave.</value></Data><Data name="City"><value>Mt. Vernon</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.838096,40.906055,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68259">
+        <name>Orchid Beauty Shoppe</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Orchid Beauty Shoppe</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Beauty Parlor (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>57 Winyah Ave.</td></tr><tr><td><b>Location:</b></td><td>New Rochelle, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Lillina Walker (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Beauty Parlor</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Lillina Walker</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>57 Winyah Ave.</value></Data><Data name="City"><value>New Rochelle</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.792965,40.915924,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68260">
+        <name>Sunken Meadow</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Sunken Meadow</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Rte. 25A and Sunken Meadow Parkway</td></tr><tr><td><b>Location:</b></td><td>Kings Park, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Rte. 25A and Sunken Meadow Parkway</value></Data><Data name="City"><value>Kings Park</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.265846,40.896869,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68261">
+        <name>Mohawk Inn Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Mohawk Inn Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>142 S. 7th Ave.</td></tr><tr><td><b>Location:</b></td><td>Mt. Vernon, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mack McGee (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Mack McGee</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>142 S. 7th Ave.</value></Data><Data name="City"><value>Mt. Vernon</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.838594,40.907516,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68262">
+        <name>Daniel&#x27;s Pharmacy</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Daniel&#x27;s Pharmacy</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Pharmacy (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>57 Winyah Ave.</td></tr><tr><td><b>Location:</b></td><td>New Rochelle, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>C.H. Daniels, Ph. G (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Pharmacy</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>C.H. Daniels, Ph. G</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>57 Winyah Ave.</value></Data><Data name="City"><value>New Rochelle</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.792965,40.915924,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68263">
+        <name>Glen Island</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Glen Island</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Weyman Ave.</td></tr><tr><td><b>Location:</b></td><td>New Rochelle, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr><tr><td><b>Archival Notes:</b></td><td>Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Weyman Ave.</value></Data><Data name="City"><value>New Rochelle</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.</value></Data></ExtendedData>
+        <Point><coordinates>-73.789259,40.896986,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68264">
+        <name>Harris Tea Room</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Harris Tea Room</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>29 Morris St.</td></tr><tr><td><b>Location:</b></td><td>New Rochelle, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>29 Morris St.</value></Data><Data name="City"><value>New Rochelle</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.786896,40.916865,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68265">
+        <name>Club Sky Vue</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Club Sky Vue</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>2 Brook St.</td></tr><tr><td><b>Location:</b></td><td>New Rochelle, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2 Brook St.</value></Data><Data name="City"><value>New Rochelle</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.788353,40.917467,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68266">
+        <name>Bal-Mo-Ral Grill</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Bal-Mo-Ral Grill</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>56 Brook St.</td></tr><tr><td><b>Location:</b></td><td>New Rochelle, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>J. Weeks</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>J. Weeks</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>56 Brook St.</value></Data><Data name="City"><value>New Rochelle</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.78902,40.919427,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68267">
+        <name>Proger&#x27;s Dining Room</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Proger&#x27;s Dining Room</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>50 Winyah Ave.</td></tr><tr><td><b>Location:</b></td><td>New Rochelle, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>50 Winyah Ave.</value></Data><Data name="City"><value>New Rochelle</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.792835,40.916016,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68268">
+        <name>Week&#x27;s Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Week&#x27;s Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>68 Winyah Ave.</td></tr><tr><td><b>Location:</b></td><td>New Rochelle, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Julius Weeks (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Julius Weeks</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>68 Winyah Ave.</value></Data><Data name="City"><value>New Rochelle</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.792786,40.915832,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68269">
+        <name>Pitt&#x27;s Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Pitt&#x27;s Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>24 W. 3rd St.</td></tr><tr><td><b>Location:</b></td><td>Mt. Vernon, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Adella Pitts (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Adella Pitts</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>24 W. 3rd St.</value></Data><Data name="City"><value>Mt. Vernon</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.836566,40.906492,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68270">
+        <name>Ace Auto Supply</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Ace Auto Supply</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>207 St. Nicholas Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>207 St. Nicholas Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.952977,40.807457,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68271">
+        <name>A. L. Eastmond Auto Blacksmith</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">A. L. Eastmond Auto Blacksmith</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>37 W. 144th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>A. L. Eastmond (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>A. L. Eastmond</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>37 W. 144th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.936825,40.819874,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68272">
+        <name>Al&#x27;s Garage</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Al&#x27;s Garage</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>38-44 W. 144th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Cleo Davis (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Cleo Davis</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>38-44 W. 144th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.936899,40.819774,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68273">
+        <name>Alexander&#x27;s Motors</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Alexander&#x27;s Motors</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>153rd St., 153rd St. and Macombs Place</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>153rd St., 153rd St. and Macombs Place</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.936737,40.827236,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68274">
+        <name>Carlos Dick Radio Reparing</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Carlos Dick Radio Reparing</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>2540 7th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Carlos Dick (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Carlos Dick</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>2540 7th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.962295,40.588038,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68275">
+        <name>Clanrod Jones Automobile Technician</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Clanrod Jones Automobile Technician</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>25 E. 136th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Clanrod Jones (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Clanrod Jones</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>25 E. 136th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.929287,40.810189,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68276">
+        <name>Gene&#x27;s Auto Repairs</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Gene&#x27;s Auto Repairs</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>414 W. 155th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>414 W. 155th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.940896,40.830663,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68277">
+        <name>Daly Bros. Auto Supplies</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Daly Bros. Auto Supplies</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>484 St. Nicholas St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>484 St. Nicholas St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.948378,40.816066,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68278">
+        <name>H. G. Facey First Class Auto Painting</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">H. G. Facey First Class Auto Painting</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>705 Lenox Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>H. G. Facey (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>H. G. Facey</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>705 Lenox Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.936213,40.820715,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68279">
+        <name>J. Jones General Auto Repairs</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">J. Jones General Auto Repairs</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>120 W. 145th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>J. Jones (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>J. Jones</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>120 W. 145th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.937421,40.820913,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68280">
+        <name>Eighth Ave. Auto Painting and Body Shop</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Eighth Ave. Auto Painting and Body Shop</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>306-8 W. 143rd St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>306-8 W. 143rd St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.943311,40.821664,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68281">
+        <name>Martinez Tire Shop</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Martinez Tire Shop</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>612 Lenox Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>612 Lenox Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.938243,40.817461,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68282">
+        <name>Lou Price Auto Sales</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Lou Price Auto Sales</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>4330 Broadway</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Lou Price (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Lou Price</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>4330 Broadway</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.934256,40.852916,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68283">
+        <name>R. &amp; S. Auto Electricians</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">R. &amp; S. Auto Electricians</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>646 Lenox Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>W. Ramsey, H. Shields (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>W. Ramsey, H. Shields</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>646 Lenox Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.937332,40.818768,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68284">
+        <name>Pep &#x27;Em Up Auto Electric Service</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Pep &#x27;Em Up Auto Electric Service</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>155 W. 145th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Gordon Seale (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Gordon Seale</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>155 W. 145th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.938132,40.821273,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68285">
+        <name>Viaduct Automotive Service</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Viaduct Automotive Service</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>101 Macombs Place</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Frank Mirrop (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Frank Mirrop</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>101 Macombs Place</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.935724,40.827726,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68286">
+        <name>Richard&#x27;s General Auto Repair</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Richard&#x27;s General Auto Repair</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>112 W. 145th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>112 W. 145th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.937234,40.820543,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68287">
+        <name>W. J. McAvoy Expert Reparing</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">W. J. McAvoy Expert Reparing</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Automotive (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>703 Lenox Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>W. J. McAvoy (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Automotive</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>W. J. McAvoy</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>703 Lenox Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.936167,40.820707,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68288">
+        <name>Julia&#x27;s</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Julia&#x27;s</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>35 St. Nicholas Place</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>35 St. Nicholas Place</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.941764,40.828294,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68289">
+        <name>La Ritz Beauty Salon</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">La Ritz Beauty Salon</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Beauty Parlor (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>2205 7th Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Bernice Bruton (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Beauty Parlor</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Bernice Bruton</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>2205 7th Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.945706,40.812281,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68290">
+        <name>Goldman&#x27;s Wine and Liquors</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Goldman&#x27;s Wine and Liquors</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Liquor Store (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>483 w. 155th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Liquor Store</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>483 w. 155th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.942365,40.831363,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68291">
+        <name>Cathedral of St. John the Divine</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Cathedral of St. John the Divine</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>1047 Amsterdam Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1047 Amsterdam Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.962848,40.804316,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68292">
+        <name>Ellis Island</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Ellis Island</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr><tr><td><b>Archival Notes:</b></td><td>Coordinates from Google maps</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Coordinates from Google maps</value></Data></ExtendedData>
+        <Point><coordinates>-74.00723,40.713047,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68293">
+        <name>Chinatown</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Chinatown</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>50 Bowery</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>50 Bowery</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.996463,40.715772,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68294">
+        <name>Central Park</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Central Park</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>1000 5th Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1000 5th Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.962896,40.778189,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68295">
+        <name>New York City Hall</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">New York City Hall</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>City Hall Park</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>City Hall Park</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-74.007019,40.713311,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68296">
+        <name>Rockafeller Center</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Rockafeller Center</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>30 Rockefeller Plaza</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>30 Rockefeller Plaza</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.978709,40.758766,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68297">
+        <name>The George Washington Bridge</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">The George Washington Bridge</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr><tr><td><b>Archival Notes:</b></td><td>Coordinates from Google maps</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Coordinates from Google maps</value></Data></ExtendedData>
+        <Point><coordinates>-74.00723,40.713047,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68298">
+        <name>Empire State Building</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Empire State Building</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>20 W 34th St</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>20 W 34th St</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.985626,40.748862,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68299">
+        <name>The Holland Tunnel</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">The Holland Tunnel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr><tr><td><b>Archival Notes:</b></td><td>Coordinates from Google maps</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Coordinates from Google maps</value></Data></ExtendedData>
+        <Point><coordinates>-74.00723,40.713047,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68300">
+        <name>The General Post Office</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">The General Post Office</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>441 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>441 8th Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.994628,40.750633,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68301">
+        <name>The Tri-Borough Bridge</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">The Tri-Borough Bridge</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr><tr><td><b>Archival Notes:</b></td><td>Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.</value></Data></ExtendedData>
+        <Point><coordinates>-74.00723,40.713047,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68302">
+        <name>Crugers Park</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Crugers Park</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-74.00723,40.713047,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68303">
+        <name>The Theatrical District of NY</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">The Theatrical District of NY</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>1260 6th Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1260 6th Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.980169,40.760217,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68304">
+        <name>Gailliard Press Inc.</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Gailliard Press Inc.</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Printer (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>262 W. 135th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Printer</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>262 W. 135th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.945778,40.816151,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68305">
+        <name>The Hayden Planetarium</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">The Hayden Planetarium</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>200 Central Park West</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>200 Central Park West</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.972472,40.78106,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68306">
+        <name>New Manhattan Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">New Manhattan Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>503 Lenox Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>503 Lenox Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.940708,40.814479,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68307">
+        <name>La Fontaine Service</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">La Fontaine Service</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Tailor/Cleaning (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>470 Convent Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Katherine Fontaine (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Tailor/Cleaning</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Katherine Fontaine</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>470 Convent Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.943361,40.828211,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68308">
+        <name>Donhaven</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Donhaven</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>160 Marble Ave.</td></tr><tr><td><b>Location:</b></td><td>Pleasantville, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>160 Marble Ave.</value></Data><Data name="City"><value>Pleasantville</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.78817,41.128242,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68309">
+        <name>White Tower Lodge</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">White Tower Lodge</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Pleasantville, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Scott Bros. (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Scott Bros.</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Pleasantville</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.792431,41.133369,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68310">
+        <name>La Fontaine Service</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">La Fontaine Service</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Tailor/Cleaning (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>764 St. Nicholas Ave.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Elliott Fontaine (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Tailor/Cleaning</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Elliott Fontaine</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>764 St. Nicholas Ave.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.943172,40.826208,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68311">
+        <name>Little Alpha Cleaners</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Little Alpha Cleaners</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Tailor/Cleaning (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>200 W. 136th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Tailor/Cleaning</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>200 W. 136th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.943613,40.816121,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68312">
+        <name>Little Alpha Cleaners</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Little Alpha Cleaners</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Tailor/Cleaning (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>84 W. 120th St.</td></tr><tr><td><b>Location:</b></td><td>New York City, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Tailor/Cleaning</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>84 W. 120th St.</value></Data><Data name="City"><value>New York City</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.947383,40.804374,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68313">
+        <name>The New York World&#x27;s Fair</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">The New York World&#x27;s Fair</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Point of Interest (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>Flushing Meadows Corona Park</td></tr><tr><td><b>Location:</b></td><td>Queens, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Point of Interest</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Flushing Meadows Corona Park</value></Data><Data name="City"><value>Queens</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.833141,40.767475,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68314">
+        <name>Kingsland Point Park</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Kingsland Point Park</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Palmer Ave.</td></tr><tr><td><b>Location:</b></td><td>Sleepy Hollow, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Palmer Ave.</value></Data><Data name="City"><value>Sleepy Hollow</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.866047,41.092742,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68315">
+        <name>Saxon Woods Golf Club</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Saxon Woods Golf Club</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Golf Club (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>315 Mamaroneck Rd.</td></tr><tr><td><b>Location:</b></td><td>Scarsdale, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Golf Club</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>315 Mamaroneck Rd.</value></Data><Data name="City"><value>Scarsdale</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.75919,40.97737,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68316">
+        <name>Al&#x27;s Barber Shop</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Al&#x27;s Barber Shop</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Barber Shop (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>144 Main St.</td></tr><tr><td><b>Location:</b></td><td>Tuckahoe, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Al Henderson (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Barber Shop</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Al Henderson</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>144 Main St.</value></Data><Data name="City"><value>Tuckahoe</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.823673,40.949165,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68317">
+        <name>Shahana Beauty Salon</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Shahana Beauty Salon</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Beauty Parlor (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>144 Main St.</td></tr><tr><td><b>Location:</b></td><td>Tuckahoe, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Hanna Starvis, Jaunita Lopez (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Beauty Parlor</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Hanna Starvis, Jaunita Lopez</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>144 Main St.</value></Data><Data name="City"><value>Tuckahoe</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.823673,40.949165,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68318">
+        <name>Major&#x27;s Lunch Room</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Major&#x27;s Lunch Room</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>48 Washington St.</td></tr><tr><td><b>Location:</b></td><td>Tuckahoe, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>48 Washington St.</value></Data><Data name="City"><value>Tuckahoe</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.824046,40.948044,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68319">
+        <name>The Butterfly Inn  Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">The Butterfly Inn  Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>47 Washington St.</td></tr><tr><td><b>Location:</b></td><td>Tuckahoe, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Juanita Lopez (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Juanita Lopez</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>47 Washington St.</value></Data><Data name="City"><value>Tuckahoe</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.824342,40.948432,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68320">
+        <name>Jones Beach</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Jones Beach</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>2400 Ocean Parkway</td></tr><tr><td><b>Location:</b></td><td>Wantagh, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2400 Ocean Parkway</value></Data><Data name="City"><value>Wantagh</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.508295,40.59597,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68321">
+        <name>Valley Stream</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Valley Stream</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Valley Stream, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Valley Stream</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.708019,40.66772,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68322">
+        <name>Royal Garden</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Royal Garden</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>14 New Broad St.</td></tr><tr><td><b>Location:</b></td><td>Portchester, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>14 New Broad St.</value></Data><Data name="City"><value>Portchester</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.665668,41.000478,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68323">
+        <name>Hempstead Lake</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Hempstead Lake</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>1000 Lake Drive</td></tr><tr><td><b>Location:</b></td><td>West Hempstead, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1000 Lake Drive</value></Data><Data name="City"><value>West Hempstead</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.648979,40.675975,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68324">
+        <name>Southern Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Southern Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>118 Martino Ave.</td></tr><tr><td><b>Location:</b></td><td>White Plains, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>118 Martino Ave.</value></Data><Data name="City"><value>White Plains</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.77026,41.03068,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68325">
+        <name>Lloyd&#x27;s</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Lloyd&#x27;s</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Dining/Dancing (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>88 Martine Ave.</td></tr><tr><td><b>Location:</b></td><td>White Plains, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>W. Bernard</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Dining/Dancing</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>W. Bernard</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>88 Martine Ave.</value></Data><Data name="City"><value>White Plains</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.770392,41.030661,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68326">
+        <name>Sprain Lake</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Sprain Lake</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Golf Club (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>290 E Grassy Sprain Rd.</td></tr><tr><td><b>Location:</b></td><td>Yonkers, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Golf Club</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>290 E Grassy Sprain Rd.</value></Data><Data name="City"><value>Yonkers</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.848392,40.963748,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68327">
+        <name>Tibbets Brook Park</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Tibbets Brook Park</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Recreation (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>355 Midland Ave.</td></tr><tr><td><b>Location:</b></td><td>Yonkers, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Recreation</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>355 Midland Ave.</value></Data><Data name="City"><value>Yonkers</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.874667,40.925419,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68328">
+        <name>Conrad&#x27;s Inn Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Conrad&#x27;s Inn Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>15 Monroe St.</td></tr><tr><td><b>Location:</b></td><td>Yonkers, NY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>G. E. Chellis</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>G. E. Chellis</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>15 Monroe St.</value></Data><Data name="City"><value>Yonkers</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.867728,40.959541,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68329">
+        <name>Maple Moor Golf Club</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Maple Moor Golf Club</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Golf Club (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>1128 North St.</td></tr><tr><td><b>Location:</b></td><td>White Plains, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Golf Club</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1128 North St.</value></Data><Data name="City"><value>White Plains</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.727249,41.001955,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68330">
+        <name>Lucy&#x27;s Grill</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Lucy&#x27;s Grill</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>231 New Main St.</td></tr><tr><td><b>Location:</b></td><td>Yonkers, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>231 New Main St.</value></Data><Data name="City"><value>Yonkers</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.895732,40.930726,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_68331">
+        <name>Mohansic Park Golf Club</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Mohansic Park Golf Club</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1937</td></tr><tr><td><b>Category:</b></td><td>Golf Club (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>2957 Crompond Rd.</td></tr><tr><td><b>Location:</b></td><td>Yorktown Heights, NY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1937</value></Data><Data name="BusinessType"><value>Golf Club</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2957 Crompond Rd.</value></Data><Data name="City"><value>Yorktown Heights</value></Data><Data name="State"><value>NY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.812946,41.293616,0</coordinates></Point>
+      </Placemark>
+  </Document>
+</kml>

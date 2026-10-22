@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>The Negro Travelers&#x27; Green Book: 1956 - Part 2 of 2 (42 Listings)</name>
+    <description>Google My Maps layer 2/2 (&lt;=2,000 feature limit). Published in Spring 1956 (84 pages, 1,942 geocoded listings), streamlining directory categories to focus on lodging, dining, and service stations during the birth of the Interstate Highway System.</description>
+    <Style id="cat_tourist_home">
+      <IconStyle>
+        <color>ff327d2e</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_hotel_motel">
+      <IconStyle>
+        <color>ffc06515</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-Blank.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_restaurant">
+      <IconStyle>
+        <color>ff006cef</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_nightlife">
+      <IconStyle>
+        <color>ffaa248e</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_auto">
+      <IconStyle>
+        <color>ff2828c6</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_personal_care">
+      <IconStyle>
+        <color>ff8f8300</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_other">
+      <IconStyle>
+        <color>ff414c6d</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+      <Placemark id="gb_21557">
+        <name>Johnson’s Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Johnson’s Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1033 W. Somers St.</td></tr><tr><td><b>Location:</b></td><td>Milwaukee, WI, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Listed as &#x27;Rooming Houses&#x27;. Reclassed as &#x27;Tourist Home&#x27;.</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1033 W. Somers St.</value></Data><Data name="City"><value>Milwaukee</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Listed as &#x27;Rooming Houses&#x27;. Reclassed as &#x27;Tourist Home&#x27;.</value></Data></ExtendedData>
+        <Point><coordinates>-87.924058,43.049273,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21558">
+        <name>Hargroves Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Hargroves Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>1443 N. 3rd St.</td></tr><tr><td><b>Location:</b></td><td>Milwaukee, WI, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1443 N. 3rd St.</value></Data><Data name="City"><value>Milwaukee</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-87.914435,43.049072,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21559">
+        <name>North Side Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">North Side Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>2141 N. 10th St.</td></tr><tr><td><b>Location:</b></td><td>Milwaukee, WI, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2141 N. 10th St.</value></Data><Data name="City"><value>Milwaukee</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-87.924095,43.059073,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21560">
+        <name>Mrs. N. Brown Rooming House</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. N. Brown Rooming House</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>920 W. Wright St.</td></tr><tr><td><b>Location:</b></td><td>Milwaukee, WI, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. N. Brown (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Listed as &#x27;Rooming Houses&#x27;. Reclassed as &#x27;Tourist Home&#x27;.</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. N. Brown</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>920 W. Wright St.</value></Data><Data name="City"><value>Milwaukee</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Listed as &#x27;Rooming Houses&#x27;. Reclassed as &#x27;Tourist Home&#x27;.</value></Data></ExtendedData>
+        <Point><coordinates>-87.923438,43.064008,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21561">
+        <name>Channey’s Resort</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Channey’s Resort</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Vacation (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>Rt. 2</td></tr><tr><td><b>Location:</b></td><td>Spooner, WI, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Vacation</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Rt. 2</value></Data><Data name="City"><value>Spooner</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-91.669582,45.825259,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21562">
+        <name>Mrs. M. Burns Rooming House</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. M. Burns Rooming House</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1241 North 6th St.</td></tr><tr><td><b>Location:</b></td><td>Milwaukee, WI, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. M. Burns (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Listed as &#x27;Rooming Houses&#x27;. Reclassed as &#x27;Tourist Home&#x27;.</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. M. Burns</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>1241 North 6th St.</value></Data><Data name="City"><value>Milwaukee</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Listed as &#x27;Rooming Houses&#x27;. Reclassed as &#x27;Tourist Home&#x27;.</value></Data></ExtendedData>
+        <Point><coordinates>-87.918989,43.046405,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21563">
+        <name>Pastell Lampkins Rooming House</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Pastell Lampkins Rooming House</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>2427 N. 14th St.</td></tr><tr><td><b>Location:</b></td><td>Milwaukee, WI, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Pastell Lampkins (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Pastell Lampkins</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>2427 N. 14th St.</value></Data><Data name="City"><value>Milwaukee</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-87.930113,43.06296,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21564">
+        <name>Somo Heights Resort</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Somo Heights Resort</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Vacation (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Tomahawk, WI, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Vacation</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Tomahawk</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-89.729233,45.474522,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21565">
+        <name>Mrs. S. King Rooming House</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. S. King Rooming House</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>2328 West 12th St.</td></tr><tr><td><b>Location:</b></td><td>Milwaukee, WI, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. S. King (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. S. King</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>2328 West 12th St.</value></Data><Data name="City"><value>Milwaukee</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-87.86488,42.908654,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21566">
+        <name>Lone Star Resort</name>
+        <styleUrl>#cat_other</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#6D4C41;">Lone Star Resort</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Vacation (Retail, Services &amp; Other)</td></tr><tr><td><b>Address:</b></td><td>Rt. 2</td></tr><tr><td><b>Location:</b></td><td>Spooner, WI, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Vacation</value></Data><Data name="CategoryGroup"><value>Retail, Services &amp; Other</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Rt. 2</value></Data><Data name="City"><value>Spooner</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-91.669582,45.825259,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21567">
+        <name>Hotel Thelma</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Hotel Thelma</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>1047 Wayne St.</td></tr><tr><td><b>Location:</b></td><td>Bluefield, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1047 Wayne St.</value></Data><Data name="City"><value>Bluefield</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.216107,37.273804,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21568">
+        <name>New Pioneer Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">New Pioneer Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>340 S. Fayette St.</td></tr><tr><td><b>Location:</b></td><td>Beckley, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>340 S. Fayette St.</value></Data><Data name="City"><value>Beckley</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.187587,37.774965,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21569">
+        <name>Traveler’s Inn</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Traveler’s Inn</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>602 Raleigh St.</td></tr><tr><td><b>Location:</b></td><td>Bluefield, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>602 Raleigh St.</value></Data><Data name="City"><value>Bluefield</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.220945,37.269369,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21570">
+        <name>Penn&#x27;s Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Penn&#x27;s Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>W. Charleston</td></tr><tr><td><b>Location:</b></td><td>Charleston, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>W. Charleston</value></Data><Data name="City"><value>Charleston</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.772876,38.433114,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21571">
+        <name>Brown’s Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Brown’s Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>Capitol St. &amp; Donnelly St.</td></tr><tr><td><b>Location:</b></td><td>Charleston, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Capitol St. &amp; Donnelly St.</value></Data><Data name="City"><value>Charleston</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.630739,38.351968,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21572">
+        <name>The Hut Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">The Hut Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>1329 Washington St.</td></tr><tr><td><b>Location:</b></td><td>Charleston, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr><tr><td><b>Archival Notes:</b></td><td>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1329 Washington St.</value></Data><Data name="City"><value>Charleston</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</value></Data></ExtendedData>
+        <Point><coordinates>-81.625701,38.345678,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21573">
+        <name>Ferguson Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Ferguson Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>Washington St.</td></tr><tr><td><b>Location:</b></td><td>Charleston, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Washington St.</value></Data><Data name="City"><value>Charleston</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.713153,38.357622,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21574">
+        <name>Jones Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Jones Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>Latrobe Street</td></tr><tr><td><b>Location:</b></td><td>Grafton, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Latrobe Street</value></Data><Data name="City"><value>Grafton</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</value></Data></ExtendedData>
+        <Point><coordinates>-80.023674,39.340989,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21575">
+        <name>Hotel Franklin</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Hotel Franklin</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>129 Main St.</td></tr><tr><td><b>Location:</b></td><td>Franklin, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>129 Main St.</value></Data><Data name="City"><value>Franklin</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-79.330661,38.643613,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21576">
+        <name>Mrs. Ruby Thomas Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. Ruby Thomas Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>309 Water St.</td></tr><tr><td><b>Location:</b></td><td>Clarksburg, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. Ruby Thomas (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. Ruby Thomas</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>309 Water St.</value></Data><Data name="City"><value>Clarksburg</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.335314,39.277225,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21577">
+        <name>Mrs. Geo. Jones Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. Geo. Jones Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>Front St.</td></tr><tr><td><b>Location:</b></td><td>Grafton, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. Geo. Jones (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Address from 1950 book. Listed as &#x27;Guest House&#x27;. Reclassed as &#x27;Tourist Home&#x27;.</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. Geo. Jones</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>Front St.</value></Data><Data name="City"><value>Grafton</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Address from 1950 book. Listed as &#x27;Guest House&#x27;. Reclassed as &#x27;Tourist Home&#x27;.</value></Data></ExtendedData>
+        <Point><coordinates>-80.019965,39.338973,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21578">
+        <name>The Ross House Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">The Ross House Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>911 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>911 8th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</value></Data></ExtendedData>
+        <Point><coordinates>-82.441793,38.415094,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21579">
+        <name>Mrs. C. J. Barnett Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. C. J. Barnett Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>810 7th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. C. J. Barnett (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. C. J. Barnett</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>810 7th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.44398,38.416512,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21580">
+        <name>Franklin Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Franklin Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>129 Main Street</td></tr><tr><td><b>Location:</b></td><td>Keystone, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>129 Main Street</value></Data><Data name="City"><value>Keystone</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.190189,39.561743,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21581">
+        <name>The Price House</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">The Price House</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>109 2nd St.</td></tr><tr><td><b>Location:</b></td><td>Hinton, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>109 2nd St.</value></Data><Data name="City"><value>Hinton</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.89184,37.675028,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21582">
+        <name>New Royal Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">New Royal Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>223 Gaines St.</td></tr><tr><td><b>Location:</b></td><td>Montgomery, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>223 Gaines St.</value></Data><Data name="City"><value>Montgomery</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</value></Data></ExtendedData>
+        <Point><coordinates>-81.316577,38.180121,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21583">
+        <name>Maya&#x27;s Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Maya&#x27;s Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>136 State St.</td></tr><tr><td><b>Location:</b></td><td>Hinton, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>136 State St.</value></Data><Data name="City"><value>Hinton</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.890844,37.668276,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21584">
+        <name>Mrs. Jeanette O. Parker Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. Jeanette O. Parker Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>2 Cayton St.</td></tr><tr><td><b>Location:</b></td><td>Morgantown, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. Jeanette O. Parker (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. Jeanette O. Parker</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>2 Cayton St.</value></Data><Data name="City"><value>Morgantown</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</value></Data></ExtendedData>
+        <Point><coordinates>-79.949088,39.637717,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21585">
+        <name>Mrs. Linnie Mae Slaughter Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. Linnie Mae Slaughter Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>3 Cayton St.</td></tr><tr><td><b>Location:</b></td><td>Morgantown, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. Linnie Mae Slaughter (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. Linnie Mae Slaughter</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>3 Cayton St.</value></Data><Data name="City"><value>Morgantown</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Identified as &#x27;Lodging&#x27;. Reclassified as &#x27;Tourist Home&#x27;</value></Data></ExtendedData>
+        <Point><coordinates>-79.948939,39.637894,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21586">
+        <name>Capheart Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Capheart Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>14 Virginia Ave.</td></tr><tr><td><b>Location:</b></td><td>Welch, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>14 Virginia Ave.</value></Data><Data name="City"><value>Welch</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.585118,37.430629,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21587">
+        <name>Mrs. Blanch Campbell Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. Blanch Campbell Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1206 4th St.</td></tr><tr><td><b>Location:</b></td><td>Moundsville, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. Blanch Campbell (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. Blanch Campbell</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>1206 4th St.</value></Data><Data name="City"><value>Moundsville</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.739285,39.920975,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21588">
+        <name>Houchins Hotel &amp; Cafe</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Houchins Hotel &amp; Cafe</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Northfork, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Northfork</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.435589,37.414936,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21589">
+        <name>Blue Triangle Y.W.C.A.</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Blue Triangle Y.W.C.A.</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>108 12th St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>108 12th St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.718481,40.067649,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21590">
+        <name>Blue Spruce Motel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Blue Spruce Motel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Motel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>1914 Yellowstone, East</td></tr><tr><td><b>Location:</b></td><td>Casper, WY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Motel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1914 Yellowstone, East</value></Data><Data name="City"><value>Casper</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-106.298781,42.854148,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21591">
+        <name>Yellow Front Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Yellow Front Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>111 E. Front St.</td></tr><tr><td><b>Location:</b></td><td>Rawlins, WY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Changed from Rawling. Changed 11 E. Front as listed in 1947 book. Owner named changed from &#x27;Hobert&#x27; to &#x27;Robert&#x27; to match previous books.</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>111 E. Front St.</value></Data><Data name="City"><value>Rawlins</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Changed from Rawling. Changed 11 E. Front as listed in 1947 book. Owner named changed from &#x27;Hobert&#x27; to &#x27;Robert&#x27; to match previous books.</value></Data></ExtendedData>
+        <Point><coordinates>-107.234748,41.787895,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21592">
+        <name>Mrs. W. Turner Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. W. Turner Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>114 12th St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. W. Turner (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Address1 from 1957 book</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. W. Turner</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>114 12th St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Address1 from 1957 book</value></Data></ExtendedData>
+        <Point><coordinates>-80.718217,40.067673,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21593">
+        <name>Mrs. David J. Rudd Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. David J. Rudd Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>646 East A St.</td></tr><tr><td><b>Location:</b></td><td>Casper, WY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. David J. Rudd (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Changed from Rawling. Changed 11 E. Front as listed in 1947 book.</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. David J. Rudd</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>646 East A St.</value></Data><Data name="City"><value>Casper</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Changed from Rawling. Changed 11 E. Front as listed in 1947 book.</value></Data></ExtendedData>
+        <Point><coordinates>-106.31704,42.851534,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21594">
+        <name>Robert Westbrook Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Robert Westbrook Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>111 E. Front St.</td></tr><tr><td><b>Location:</b></td><td>Rawlins, WY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Robert Westbrook (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Robert Westbrook</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>111 E. Front St.</value></Data><Data name="City"><value>Rawlins</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-107.234748,41.787895,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21595">
+        <name>Clovercrest Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Clovercrest Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Hams Bay, St. Croix, Virgin Islands</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Hams Bay</value></Data><Data name="State"><value>St. Croix</value></Data><Data name="Country"><value>Virgin Islands</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-64.8807,17.76553,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21596">
+        <name>Blue Goose Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Blue Goose Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>1035 Chapline St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1035 Chapline St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.721694,40.069519,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21597">
+        <name>Liberty Motel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Liberty Motel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Motel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>West Hwy. 30</td></tr><tr><td><b>Location:</b></td><td>Rock Springs, WY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Owner Name and address from 1951 book.</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Motel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>West Hwy. 30</value></Data><Data name="City"><value>Rock Springs</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Owner Name and address from 1951 book.</value></Data></ExtendedData>
+        <Point><coordinates>-108.891542,41.691729,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_21598">
+        <name>Collins Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Collins Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1956</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>915 7th St.</td></tr><tr><td><b>Location:</b></td><td>Rock Springs, WY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. R. Collins (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1956</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. R. Collins</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>915 7th St.</value></Data><Data name="City"><value>Rock Springs</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-109.216242,41.590923,0</coordinates></Point>
+      </Placemark>
+  </Document>
+</kml>

@@ -1,0 +1,375 @@
+[
+  {
+    "edition": "1937",
+    "title": "The Negro Motorist Green Book: 1937",
+    "role": "Earliest Surviving Edition",
+    "total_records": 86,
+    "valid_coordinates_count": 86,
+    "pdf_file": "1937.pdf",
+    "pdf_bytes": 4551715,
+    "txt_count": 15,
+    "hocr_count": 15,
+    "supplemental_files": [
+      "supplemental/GreenBook1937.csv",
+      "supplemental/GreenBook1937.ods",
+      "supplemental/GreenBook1937Notes.md",
+      "supplemental/GreenBook_city_withGeo_37-39.csv",
+      "supplemental/GreenBook_city_noGeo_37-39.csv",
+      "supplemental/GreenBook_city_noGeo_37-39.ods",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1938",
+    "title": "The Negro Motorist Green Book: 1938",
+    "role": "First Multi-Region Expansion Edition",
+    "total_records": 1013,
+    "valid_coordinates_count": 1013,
+    "pdf_file": "1938.pdf",
+    "pdf_bytes": 6175921,
+    "txt_count": 36,
+    "hocr_count": 36,
+    "supplemental_files": [
+      "supplemental/GreenBook_city_withGeo_37-39.csv",
+      "supplemental/GreenBook_city_noGeo_37-39.csv",
+      "supplemental/GreenBook_city_noGeo_37-39.ods",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1939",
+    "title": "The Negro Motorist Green Book: 1939",
+    "role": "1939 New York World's Fair Edition",
+    "total_records": 2006,
+    "valid_coordinates_count": 2006,
+    "pdf_file": "1939.pdf",
+    "pdf_bytes": 9468294,
+    "txt_count": 52,
+    "hocr_count": 52,
+    "supplemental_files": [
+      "supplemental/GreenBook_city_withGeo_37-39.csv",
+      "supplemental/GreenBook_city_noGeo_37-39.csv",
+      "supplemental/GreenBook_city_noGeo_37-39.ods",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1940",
+    "title": "The Negro Motorist Green Book: 1940",
+    "role": "Pre-WWII National Expansion Edition",
+    "total_records": 2059,
+    "valid_coordinates_count": 2059,
+    "pdf_file": "1940.pdf",
+    "pdf_bytes": 8509498,
+    "txt_count": 52,
+    "hocr_count": 52,
+    "supplemental_files": [
+      "supplemental/GreenBook_city_noGeo_40.csv",
+      "supplemental/GreenBook_city_noGeo_40.ods",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1941",
+    "title": "The Negro Motorist Green Book: 1941",
+    "role": "Final Pre-WWII Edition",
+    "total_records": 1990,
+    "valid_coordinates_count": 1990,
+    "pdf_file": "1941.pdf",
+    "pdf_bytes": 9002973,
+    "txt_count": 52,
+    "hocr_count": 52,
+    "supplemental_files": [
+      "supplemental/GreenBook_city_noGeo_41.csv",
+      "supplemental/GreenBook_city_noGeo_41.ods",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1946",
+    "title": "The Negro Motorist Green Book: 1946",
+    "role": "Post-WWII Resumption Edition",
+    "total_records": 3335,
+    "valid_coordinates_count": 3335,
+    "pdf_file": null,
+    "pdf_bytes": 0,
+    "txt_count": 0,
+    "hocr_count": 0,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1947",
+    "title": "The Negro Motorist Green Book: 1947",
+    "role": "Post-WWII Boom & Vacation Reservation Service Edition",
+    "total_records": 3649,
+    "valid_coordinates_count": 3649,
+    "pdf_file": "1947.pdf",
+    "pdf_bytes": 21666010,
+    "txt_count": 84,
+    "hocr_count": 84,
+    "supplemental_files": [
+      "supplemental/GreenBook1947Notes.md",
+      "supplemental/GreenBook1947_inProcess.ods",
+      "supplemental/GreenBook_city_noGeo_47.csv",
+      "supplemental/GreenBook_city_noGeo_47.ods",
+      "supplemental/nypl_labs_1947.geojson",
+      "supplemental/nypl_map_greenbook_1947.json",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1948",
+    "title": "The Negro Motorist Green Book: 1948",
+    "role": "United States & Alaska Edition",
+    "total_records": 3912,
+    "valid_coordinates_count": 3912,
+    "pdf_file": "1948.pdf",
+    "pdf_bytes": 14566509,
+    "txt_count": 84,
+    "hocr_count": 84,
+    "supplemental_files": [
+      "supplemental/GreenBook_city_noGeo_48.csv",
+      "supplemental/GreenBook_city_noGeo_48.ods",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1949",
+    "title": "The Negro Motorist Green Book: 1949",
+    "role": "First International Travel Guide Edition",
+    "total_records": 3936,
+    "valid_coordinates_count": 3936,
+    "pdf_file": "1949.pdf",
+    "pdf_bytes": 13273938,
+    "txt_count": 84,
+    "hocr_count": 84,
+    "supplemental_files": [
+      "supplemental/GreenBook_city_noGeo_49.csv",
+      "supplemental/GreenBook_city_noGeo_49.ods",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1950",
+    "title": "The Negro Motorist Green Book: 1950",
+    "role": "Mid-Century Peak Listings Edition",
+    "total_records": 4315,
+    "valid_coordinates_count": 4315,
+    "pdf_file": "1950.pdf",
+    "pdf_bytes": 17497684,
+    "txt_count": 92,
+    "hocr_count": 92,
+    "supplemental_files": [
+      "supplemental/GreenBook_city_noGeo_50.csv",
+      "supplemental/GreenBook_city_noGeo_50.ods",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1951",
+    "title": "The Negro Motorist Green Book: 1951 Railroad Edition",
+    "role": "1951 Railroad & International Travel Edition",
+    "total_records": 4229,
+    "valid_coordinates_count": 4229,
+    "pdf_file": "1951.pdf",
+    "pdf_bytes": 16028461,
+    "txt_count": 84,
+    "hocr_count": 84,
+    "supplemental_files": [
+      "supplemental/GreenBook_city_noGeo_51.csv",
+      "supplemental/GreenBook_city_noGeo_51.ods",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1952",
+    "title": "The Negro Travelers' Green Book: 1952",
+    "role": "First 'Negro Travelers' Title Edition",
+    "total_records": 4161,
+    "valid_coordinates_count": 4161,
+    "pdf_file": "1952.pdf",
+    "pdf_bytes": 16496607,
+    "txt_count": 84,
+    "hocr_count": 84,
+    "supplemental_files": [
+      "supplemental/GreenBook_city_noGeo_52.csv",
+      "supplemental/GreenBook_city_noGeo_52.ods",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1953",
+    "title": "The Negro Travelers' Green Book: 1953",
+    "role": "1953 Regular Edition",
+    "total_records": 3991,
+    "valid_coordinates_count": 3991,
+    "pdf_file": "1953.pdf",
+    "pdf_bytes": 16223205,
+    "txt_count": 84,
+    "hocr_count": 84,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1954",
+    "title": "The Negro Travelers' Green Book: 1954",
+    "role": "Brown v. Board of Education Era Edition",
+    "total_records": 4071,
+    "valid_coordinates_count": 4071,
+    "pdf_file": "1954.pdf",
+    "pdf_bytes": 14955668,
+    "txt_count": 84,
+    "hocr_count": 84,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1955",
+    "title": "The Negro Travelers' Green Book: 1955 International Edition",
+    "role": "1955 Airline & International Edition",
+    "total_records": 3979,
+    "valid_coordinates_count": 3979,
+    "pdf_file": "1955.pdf",
+    "pdf_bytes": 15195083,
+    "txt_count": 84,
+    "hocr_count": 84,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1956",
+    "title": "The Negro Travelers' Green Book: 1956",
+    "role": "Interstate Highway Act & 20th Anniversary Edition",
+    "total_records": 1942,
+    "valid_coordinates_count": 1942,
+    "pdf_file": "1956.pdf",
+    "pdf_bytes": 15290123,
+    "txt_count": 84,
+    "hocr_count": 84,
+    "supplemental_files": [
+      "supplemental/uofsc_nypl_greenbook_1956.json",
+      "supplemental/library_sc_edu_greenbookmap_0.json",
+      "supplemental/library_sc_edu_greenbookmap_500.json",
+      "supplemental/library_sc_edu_greenbookmap_1000.json",
+      "supplemental/library_sc_edu_greenbookmap_1500.json",
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1957",
+    "title": "The Negro Travelers' Green Book: 1957",
+    "role": "Civil Rights Act of 1957 Era Edition",
+    "total_records": 2113,
+    "valid_coordinates_count": 2113,
+    "pdf_file": "1957.pdf",
+    "pdf_bytes": 15565851,
+    "txt_count": 84,
+    "hocr_count": 84,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1958",
+    "title": "The Negro Travelers' Green Book: 1958",
+    "role": "1958 Pocket-Format Transition Edition",
+    "total_records": 2147,
+    "valid_coordinates_count": 2147,
+    "pdf_file": null,
+    "pdf_bytes": 0,
+    "txt_count": 0,
+    "hocr_count": 0,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1959",
+    "title": "The Negro Travelers' Green Book: 1959",
+    "role": "Final Edition Under Victor H. Green's Lifetime",
+    "total_records": 2118,
+    "valid_coordinates_count": 2118,
+    "pdf_file": "1959.pdf",
+    "pdf_bytes": 15614934,
+    "txt_count": 88,
+    "hocr_count": 88,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1960",
+    "title": "The Travelers' Green Book: 1960",
+    "role": "Sit-In Movement Era Edition (Alma D. Green, Publisher)",
+    "total_records": 2205,
+    "valid_coordinates_count": 2205,
+    "pdf_file": "1960.pdf",
+    "pdf_bytes": 22520653,
+    "txt_count": 132,
+    "hocr_count": 132,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1961",
+    "title": "The Travelers' Green Book: 1961",
+    "role": "Freedom Rides Era Edition",
+    "total_records": 2321,
+    "valid_coordinates_count": 2321,
+    "pdf_file": "1961.pdf",
+    "pdf_bytes": 20978184,
+    "txt_count": 132,
+    "hocr_count": 132,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1962",
+    "title": "Travelers' Green Book: 1962",
+    "role": "1962 Guide for Travel & Vacations",
+    "total_records": 2250,
+    "valid_coordinates_count": 2250,
+    "pdf_file": "1962.pdf",
+    "pdf_bytes": 19093162,
+    "txt_count": 130,
+    "hocr_count": 130,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1963-64",
+    "title": "Travelers' Green Book: 1963-64 International Edition",
+    "role": "March on Washington & Civil Rights Act Eve Edition",
+    "total_records": 3202,
+    "valid_coordinates_count": 3202,
+    "pdf_file": "1963-64.pdf",
+    "pdf_bytes": 18321354,
+    "txt_count": 113,
+    "hocr_count": 113,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  },
+  {
+    "edition": "1966-67",
+    "title": "Travelers' Green Book: 1966-67 International Edition",
+    "role": "Latest & Final Published Edition",
+    "total_records": 3300,
+    "valid_coordinates_count": 3300,
+    "pdf_file": null,
+    "pdf_bytes": 0,
+    "txt_count": 0,
+    "hocr_count": 0,
+    "supplemental_files": [
+      "supplemental/archival_metadata.json"
+    ]
+  }
+]

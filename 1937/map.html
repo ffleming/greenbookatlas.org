@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Green Book Atlas - 1937 Edition</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+<style>
+  :root {
+    --bg: #111618;
+    --panel: #1a2124;
+    --border: #2c373c;
+    --accent: #2e7d32;
+    --accent-light: #66bb6a;
+    --text: #eaeff2;
+    --muted: #9aa8b0;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); display: flex; height: 100vh; overflow: hidden; }
+  #sidebar { width: 370px; background: var(--panel); border-right: 1px solid var(--border); display: flex; flex-direction: column; z-index: 1000; }
+  .header { padding: 12px 16px; border-bottom: 1px solid var(--border); background: #141b1d; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+  h1 { font-size: 16px; margin: 0; line-height: 1.25; }
+  .controls { padding: 12px 16px; border-bottom: 1px solid var(--border); overflow-y: auto; flex: 1; }
+  .section-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); margin: 12px 0 6px 0; }
+  .section-title:first-child { margin-top: 0; }
+  input[type="text"], select { width: 100%; padding: 7px 10px; background: #0f1416; border: 1px solid var(--border); color: var(--text); border-radius: 6px; font-size: 13px; margin-bottom: 6px; }
+  .cat-item { display: flex; align-items: center; justify-content: space-between; padding: 4px 0; font-size: 13px; cursor: pointer; }
+  .cat-left { display: flex; align-items: center; gap: 8px; }
+  .swatch { width: 12px; height: 12px; border-radius: 50%; display: inline-block; border: 1px solid rgba(255,255,255,0.4); }
+  .count-pill { background: #0f1416; color: var(--muted); padding: 1px 7px; border-radius: 10px; font-size: 11.5px; }
+  .btn-group { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .btn { display: inline-block; background: #243035; color: var(--text); text-decoration: none; padding: 5px 9px; border-radius: 5px; font-size: 12px; border: 1px solid var(--border); cursor: pointer; transition: background 0.15s; }
+  .btn:hover { background: #314148; }
+  .btn-primary { background: var(--accent); border-color: #388e3c; color: #fff; }
+  .btn-sm { padding: 4px 8px; font-size: 11px; }
+  #map { flex: 1; height: 100vh; }
+  .stats-bar { padding: 8px 16px; background: #0f1416; border-top: 1px solid var(--border); font-size: 12px; color: var(--muted); display: flex; justify-content: space-between; }
+  .leaflet-popup-content-wrapper { background: #1a2124; color: #eaeff2; border: 1px solid #2c373c; border-radius: 8px; }
+  .leaflet-popup-tip { background: #1a2124; }
+  .popup-title { font-size: 14.5px; font-weight: 700; margin: 0 0 4px 0; color: #81c784; }
+  .popup-meta { font-size: 12.5px; line-height: 1.45; }
+  .popup-meta b { color: #b0bec5; }
+  .page-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 5px; max-height: 130px; overflow-y: auto; padding: 4px; background: #0f1416; border-radius: 6px; border: 1px solid var(--border); }
+  .page-link { font-size: 11px; color: var(--accent-light); text-decoration: none; padding: 3px; text-align: center; background: #1a2124; border-radius: 4px; }
+  .page-link:hover { background: #263238; }
+  .license-box { font-size: 11px; color: var(--muted); line-height: 1.4; background: #0f1416; padding: 8px 10px; border-radius: 6px; border: 1px solid var(--border); margin-top: 8px; }
+  .license-box a { color: var(--accent-light); text-decoration: none; }
+  .modal-backdrop { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.72); z-index: 3000; align-items: center; justify-content: center; padding: 24px; }
+  .modal-backdrop.open { display: flex; }
+  .modal-content { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; max-width: 680px; width: 100%; max-height: 85vh; overflow-y: auto; padding: 20px 24px; color: var(--text); box-shadow: 0 16px 48px rgba(0,0,0,0.6); font-size: 13px; line-height: 1.5; }
+  .modal-content h2 { margin: 0 0 10px 0; font-size: 18px; color: var(--accent-light); }
+  .modal-content h3 { margin: 14px 0 6px 0; font-size: 14px; color: #fff; }
+  .modal-content ol { margin: 6px 0 10px 0; padding-left: 20px; }
+  .modal-content li { margin-bottom: 6px; }
+  .modal-content a { color: var(--accent-light); }
+  .guide-card { background: #12181b; border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; margin-bottom: 10px; }
+  .dl-tabs { display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 1px solid var(--border); margin: 12px 0 14px 0; }
+  .dl-tab { background: transparent; border: none; border-bottom: 2px solid transparent; color: var(--muted); padding: 8px 12px; font-size: 13px; font-weight: 600; cursor: pointer; text-decoration: none; border-radius: 6px 6px 0 0; transition: all 0.15s; font-family: inherit; }
+  .dl-tab:hover { color: var(--text); background: rgba(255,255,255,0.04); }
+  .dl-tab.active { color: var(--accent-light); border-bottom-color: var(--accent-light); background: rgba(46, 125, 50, 0.15); }
+  .dl-panel { display: none; background: #12181b; border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
+  .dl-panel.active { display: block; }
+  .dl-panel h3:first-child { margin-top: 0; }
+  .dl-panel .btn-primary { color: #fff; }
+  #faqModal .modal-content { padding: 26px 32px; font-size: 14px; line-height: 1.65; }
+  #faqModal h3 { margin: 24px 0 8px 0; padding-top: 18px; border-top: 1px solid var(--border); font-size: 15.5px; color: #fff; }
+  #faqModal h3:first-of-type { margin-top: 16px; padding-top: 0; border-top: none; }
+  #faqModal p { margin: 8px 0 12px 0; color: #d8e2e7; line-height: 1.65; }
+  #faqModal ul, #faqModal ol { margin: 8px 0 12px 0; padding-left: 22px; color: #d8e2e7; line-height: 1.65; }
+  #faqModal li { margin-bottom: 10px; }
+</style>
+</head>
+<body>
+<div id="sidebar">
+  <div class="header">
+    <h1>Green Book Atlas &middot; 1937</h1>
+    <a href="../index.html" style="color:var(--accent-light);font-size:12px;text-decoration:none;white-space:nowrap;">&larr; All editions</a>
+  </div>
+  <div class="controls">
+    <div class="section-title">Filter</div>
+    <input type="text" id="searchInput" placeholder="Search name, owner, street, city..."/>
+    <select id="stateSelect"><option value="">All states &amp; countries</option></select>
+    <div style="display:flex;gap:8px;margin-bottom:4px;">
+      <label style="font-size:12px;cursor:pointer;"><input type="checkbox" id="heatToggle"/> Heatmap</label>
+    </div>
+
+    <div class="section-title">Categories</div>
+    <div id="categoryList"></div>
+
+    <div id="ocrSection" style="display:none;">
+      <div class="section-title">OCR pages (<span id="pageCount">0</span>)</div>
+      <div class="page-grid" id="pageGrid"></div>
+    </div>
+
+    <div style="display:flex;gap:6px;margin-top:14px;">
+      <button class="btn btn-primary" id="openDownloadsModalBtn" type="button" style="flex:1;text-align:center;font-weight:600;">Downloads</button>
+      <a class="btn" href="map.html" title="Standalone 1937 map link" aria-label="Standalone 1937 map link" style="display:inline-flex;align-items:center;justify-content:center;padding:5px 9px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg></a>
+    </div>
+
+    <div class="license-box">
+      Data: Victor H. Green &amp; Co. &middot; <a href="https://digitalcollections.nypl.org/collections/the-green-book" target="_blank">NYPL</a> (CC0) &middot; <a href="https://storymaps.arcgis.com/stories/a96fdcea2e9a4f7bb8da1220f76f1ec8" target="_blank">U. Redlands</a> &amp; <a href="https://www.loc.gov/item/2016298176/" target="_blank">LoC</a> &middot; <a href="https://github.com/cengel/GreenBook" target="_blank">C. Engel</a> (CC BY-SA 4.0)
+      <div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:6px;">
+        <button class="btn" id="openFaqModalBtn" type="button" style="font-size:11px;padding:3px 7px;">About / FAQ</button>
+        <a class="btn" href="../LICENSE.md" target="_blank" style="font-size:11px;padding:3px 7px;">LICENSE.md &nearr;</a>
+        <a class="btn" href="README.md" target="_blank" style="font-size:11px;padding:3px 7px;">README.md &nearr;</a>
+      </div>
+    </div>
+  </div>
+  <div class="stats-bar">
+    <span id="visibleCount">86 / 86 shown</span>
+    <span>1937</span>
+  </div>
+</div>
+<div id="map"></div>
+
+<div class="modal-backdrop" id="downloadsModal">
+  <div class="modal-content">
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+      <h2>Downloads (1937)</h2>
+      <button class="btn" id="closeDownloadsModalBtn" type="button">Close &times;</button>
+    </div>
+    <div class="dl-tabs" id="dlTabs">
+      <button class="dl-tab active" type="button" data-dltab="kml">KML</button>
+      <button class="dl-tab" type="button" data-dltab="kmz">KMZ</button>
+      <button class="dl-tab" type="button" data-dltab="geojson">GeoJSON</button>
+      <button class="dl-tab" type="button" data-dltab="csv">CSV</button>
+      <button class="dl-tab" type="button" data-dltab="json">JSON</button>
+      <button class="dl-tab" type="button" data-dltab="ocr">OCR text</button>
+      <a class="dl-tab" href="https://raw.githubusercontent.com/NYPL-publicdomain/greenbooks/master/1937.pdf" target="_blank">PDF (4.3 MB) &nearr;</a>
+    </div>
+    <div class="dl-panel active" data-dlpanel="kml">
+      <h3>Download full KML</h3>
+      <div class="btn-group">
+        <a class="btn btn-primary" href="overlay.kml" download="greenbook_1937.kml">Download full KML</a>
+      </div>
+      <h3>Download Google Maps split KML</h3>
+      <div class="btn-group"><a class="btn btn-primary" href="mymaps/greenbook_1937_mymaps_all.kml" download>Download 1937 KML 1 of 1</a></div>
+    </div>
+    <div class="dl-panel" data-dlpanel="kmz">
+      <a class="btn btn-primary" href="overlay.kmz" download="greenbook_1937.kmz">Download KMZ</a>
+    </div>
+    <div class="dl-panel" data-dlpanel="geojson">
+      <a class="btn btn-primary" href="overlay.geojson" download="greenbook_1937.geojson">Download GeoJSON</a>
+    </div>
+    <div class="dl-panel" data-dlpanel="csv">
+      <a class="btn btn-primary" href="listings.csv" download="greenbook_1937.csv">Download CSV</a>
+    </div>
+    <div class="dl-panel" data-dlpanel="json">
+      <a class="btn btn-primary" href="listings.json" download="greenbook_1937.json">Download JSON</a>
+    </div>
+    <div class="dl-panel" data-dlpanel="ocr"><a class="btn btn-primary" href="full_text.txt" download="greenbook_1937_ocr.txt">Download OCR text</a></div>
+  </div>
+</div>
+
+<div class="modal-backdrop" id="faqModal">
+  <div class="modal-content">
+    <div style="display:flex;justify-content:space-between;align-items:center;">
+      <h2>About and frequently-asked questions</h2>
+      <button class="btn" id="closeFaqModalBtn" type="button">Close &times;</button>
+    </div>
+    <h3>What is Green Book Atlas?</h3>
+    <p><b>Green Book Atlas</b> (<a href="https://greenbookatlas.org" target="_blank">greenbookatlas.org</a>) contains interactive map overlays, geocoded directory datasets, and page-level OCR transcriptions for all 24 surviving geocoded editions of <i>The Negro Motorist Green Book</i> and <i>Travelers' Green Book</i>. This totals 13,696 unique establishments across 68,330 total listings, 1,734 OCR page pairs, and links to NYPL's 21 CC0 PDF volumes.</p>
+
+    <h3>How do I use these overlays with Google Maps?</h3>
+    <ol>
+      <li>Click <b>Downloads</b> in the sidebar and download the split, Google-compatible KML files for your chosen edition.</li>
+      <li>Open <a href="https://www.google.com/mymaps" target="_blank">Google My Maps</a>, click <i>Create a new map</i> &rarr; <i>Add layer</i> &rarr; <i>Import</i>, and upload the file(s) from (1).</li>
+      <li>Open regular Google Maps (under <i>Saved</i> &rarr; <i>Maps</i>) and select your newly-created map. Enter your trip in <i>Directions</i>, tap any Green Book pin along your route line, and select <i>Add stop</i>.</li>
+    </ol>
+    <p style="font-size:12px;color:var(--muted);">Note: Google Maps enforces a cap on features per layer, so some editions are split across multiple KML files.</p>
+
+    <h3>Why does the "ALL" tab have 13,696 sites instead of 68,330?</h3>
+    <p>The "All" tab is deduplicated.</p>
+
+    <h3>Why are 1936, 1942-1945, and 1965 missing?</h3>
+    <p>Those editions either do not survive or were never published:</p>
+    <ul>
+      <li><b>1936</b>: No copy of the 1936 New York prototype edition is known to survive in any public archive.</li>
+      <li><b>1942-1945</b>: Publication was suspended during World War II due to wartime rationing.</li>
+      <li><b>1965</b>: The final two issues were published as multi-year editions (1963-64 and 1966-67).</li>
+    </ul>
+
+    <h3>Why are the 1966-67 PDF and some Internet Archive scans excluded?</h3>
+    <ul>
+      <li>The 1938 and 1940 versions available on Internet Archive prohibit derivative works. As such, we use NYPL's public-domain scans instead.</li>
+      <li>NYPL does not provide 1966-1967 scans because they are still under copyright. We include the non-copyrightable factual directory listings.</li>
+    </ul>
+
+    <h3>Where can I find the raw data and source code?</h3>
+    <p>On GitHub at <a href="https://github.com/ffleming/greenbookatlas.org" target="_blank">github.com/ffleming/greenbookatlas.org</a>.</p>
+  </div>
+</div>
+
+<script>
+const POINTS = [[40.73443, -73.34643, "Belmont Lake", "Recreation", "Dining: Restaurants", "625 Belmont Ave.", "Babylon", "NY", "United States", "Unknown", "Unknown", "", "Address from Google maps", "Advertisement"], [40.30464, -74.05974, "Westview Cottage Restaurant", "Restaurant", "Dining: Restaurants", "", "Eatontown", "NJ", "United States", "Della Weaver", "F", "", "", "Advertisement"], [40.75588, -73.48515, "Bethpage State Park", "Recreation", "Dining: Restaurants", "1001 Stewart Ave.", "Bethpage", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.87131, -73.95344, "Harlem on the Hudson", "Dining/Dancing", "Dining: Restaurants", "Hudson Terrace Road", "Englewood Cliffs", "NJ", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.57678, -73.94362, "Coney Island", "Point of Interest", "Retail, Services & Other", "801 Riegelmann Boardwalk", "Brooklyn", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.57511, -73.97573, "The Aquarium", "Point of Interest", "Retail, Services & Other", "602 Surf Ave.", "Brooklyn", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [41.00992, -73.8495, "V. Everitt Macy Park", "Recreation", "Dining: Restaurants", "", "Ardsley", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [41.19257, -73.88294, "Croton Point Beach", "Recreation", "Dining: Restaurants", "1 Croton Point Ave.", "Croton-On-Hudson", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.74122, -73.17356, "Heckscher State Park", "Recreation", "Dining: Restaurants", "1 Heckscher State Pkwy", "East Islip", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.74482, -73.94875, "Fire Island", "Recreation", "Dining: Restaurants", "", "Long Island", "NY", "United States", "Unknown", "Unknown", "", "Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.", "Advertisement"], [41.05215, -73.8217, "Clark's Tavern", "Dining/Dancing", "Dining: Restaurants", "91 Saw Mill River Road", "Elmsford", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.9312, -73.76728, "Park Tavern", "Dining/Dancing", "Dining: Restaurants", "", "Larchmont", "NY", "United States", "John Olsey, Lucille Boyd", "M", "", "", "Advertisement"], [40.90605, -73.8381, "The Favorite Grill", "Dining/Dancing", "Dining: Restaurants", "154 S. 7th Ave.", "Mt. Vernon", "NY", "United States", "John B. Steward", "M", "", "", "Advertisement"], [40.91592, -73.79296, "Orchid Beauty Shoppe", "Beauty Parlor", "Personal Care: Barber, Beauty & Tailors", "57 Winyah Ave.", "New Rochelle", "NY", "United States", "Lillina Walker", "F", "", "", "Advertisement"], [40.89687, -73.26585, "Sunken Meadow", "Recreation", "Dining: Restaurants", "", "Kings Park", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.90752, -73.83859, "Mohawk Inn Restaurant", "Restaurant", "Dining: Restaurants", "142 S. 7th Ave.", "Mt. Vernon", "NY", "United States", "Mack McGee", "M", "", "", "Advertisement"], [40.91592, -73.79296, "Daniel's Pharmacy", "Pharmacy", "Retail, Services & Other", "57 Winyah Ave.", "New Rochelle", "NY", "United States", "C.H. Daniels, Ph. G", "M", "", "", "Advertisement"], [40.89699, -73.78926, "Glen Island", "Recreation", "Dining: Restaurants", "", "New Rochelle", "NY", "United States", "Unknown", "Unknown", "", "Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.", "Advertisement"], [40.91686, -73.7869, "Harris Tea Room", "Restaurant", "Dining: Restaurants", "29 Morris St.", "New Rochelle", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.91747, -73.78835, "Club Sky Vue", "Dining/Dancing", "Dining: Restaurants", "2 Brook St.", "New Rochelle", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.91943, -73.78902, "Bal-Mo-Ral Grill", "Restaurant", "Dining: Restaurants", "56 Brook St.", "New Rochelle", "NY", "United States", "J. Weeks", "Unknown", "", "", "Advertisement"], [40.91602, -73.79283, "Proger's Dining Room", "Restaurant", "Dining: Restaurants", "50 Winyah Ave.", "New Rochelle", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.91583, -73.79279, "Week's Restaurant", "Restaurant", "Dining: Restaurants", "68 Winyah Ave.", "New Rochelle", "NY", "United States", "Julius Weeks", "M", "", "", "Advertisement"], [40.90649, -73.83657, "Pitt's Restaurant", "Restaurant", "Dining: Restaurants", "24 W. 3rd St.", "Mt. Vernon", "NY", "United States", "Adella Pitts", "F", "", "", "Advertisement"], [40.80746, -73.95298, "Ace Auto Supply", "Automotive", "Auto: Gas, Garages & Transport", "207 St. Nicholas Ave.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.81987, -73.93683, "A. L. Eastmond Auto Blacksmith", "Automotive", "Auto: Gas, Garages & Transport", "37 W. 144th St.", "New York City", "NY", "United States", "A. L. Eastmond", "M", "", "", "Advertisement"], [40.81977, -73.9369, "Al's Garage", "Automotive", "Auto: Gas, Garages & Transport", "38-44 W. 144th St.", "New York City", "NY", "United States", "Cleo Davis", "M", "", "", "Advertisement"], [40.82724, -73.93674, "Alexander's Motors", "Automotive", "Auto: Gas, Garages & Transport", "153rd St.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.58804, -73.9623, "Carlos Dick Radio Reparing", "Automotive", "Auto: Gas, Garages & Transport", "2540 7th St.", "New York City", "NY", "United States", "Carlos Dick", "M", "", "", "Advertisement"], [40.81019, -73.92929, "Clanrod Jones Automobile Technician", "Automotive", "Auto: Gas, Garages & Transport", "25 E. 136th St.", "New York City", "NY", "United States", "Clanrod Jones", "M", "", "", "Advertisement"], [40.83066, -73.9409, "Gene's Auto Repairs", "Automotive", "Auto: Gas, Garages & Transport", "414 W. 155th St.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.81607, -73.94838, "Daly Bros. Auto Supplies", "Automotive", "Auto: Gas, Garages & Transport", "484 St. Nicholas St.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.82072, -73.93621, "H. G. Facey First Class Auto Painting", "Automotive", "Auto: Gas, Garages & Transport", "705 Lenox Ave.", "New York City", "NY", "United States", "H. G. Facey", "M", "", "", "Advertisement"], [40.82091, -73.93742, "J. Jones General Auto Repairs", "Automotive", "Auto: Gas, Garages & Transport", "120 W. 145th St.", "New York City", "NY", "United States", "J. Jones", "M", "", "", "Advertisement"], [40.82166, -73.94331, "Eighth Ave. Auto Painting and Body Shop", "Automotive", "Auto: Gas, Garages & Transport", "306-8 W. 143rd St.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.81746, -73.93824, "Martinez Tire Shop", "Automotive", "Auto: Gas, Garages & Transport", "612 Lenox Ave.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.85292, -73.93426, "Lou Price Auto Sales", "Automotive", "Auto: Gas, Garages & Transport", "4330 Broadway", "New York City", "NY", "United States", "Lou Price", "M", "", "", "Advertisement"], [40.81877, -73.93733, "R. & S. Auto Electricians", "Automotive", "Auto: Gas, Garages & Transport", "646 Lenox Ave.", "New York City", "NY", "United States", "W. Ramsey, H. Shields", "M", "", "", "Advertisement"], [40.82127, -73.93813, "Pep 'Em Up Auto Electric Service", "Automotive", "Auto: Gas, Garages & Transport", "155 W. 145th St.", "New York City", "NY", "United States", "Gordon Seale", "M", "", "", "Advertisement"], [40.82773, -73.93572, "Viaduct Automotive Service", "Automotive", "Auto: Gas, Garages & Transport", "101 Macombs Place", "New York City", "NY", "United States", "Frank Mirrop", "M", "", "", "Advertisement"], [40.82054, -73.93723, "Richard's General Auto Repair", "Automotive", "Auto: Gas, Garages & Transport", "112 W. 145th St.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.82071, -73.93617, "W. J. McAvoy Expert Reparing", "Automotive", "Auto: Gas, Garages & Transport", "703 Lenox Ave.", "New York City", "NY", "United States", "W. J. McAvoy", "M", "", "", "Advertisement"], [40.82829, -73.94176, "Julia's", "Dining/Dancing", "Dining: Restaurants", "35 St. Nicholas Place", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.81228, -73.94571, "La Ritz Beauty Salon", "Beauty Parlor", "Personal Care: Barber, Beauty & Tailors", "2205 7th Ave.", "New York City", "NY", "United States", "Bernice Bruton", "F", "", "", "Advertisement"], [40.83136, -73.94236, "Goldman's Wine and Liquors", "Liquor Store", "Nightlife: Taverns & Clubs", "483 w. 155th St.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.80432, -73.96285, "Cathedral of St. John the Divine", "Point of Interest", "Retail, Services & Other", "1047 Amsterdam Ave.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.71305, -74.00723, "Ellis Island", "Point of Interest", "Retail, Services & Other", "", "New York City", "NY", "United States", "Unknown", "Unknown", "", "Coordinates from Google maps", "Advertisement"], [40.71577, -73.99646, "Chinatown", "Point of Interest", "Retail, Services & Other", "50 Bowery", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.77819, -73.9629, "Central Park", "Point of Interest", "Retail, Services & Other", "1000 5th Ave.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.71331, -74.00702, "New York City Hall", "Point of Interest", "Retail, Services & Other", "", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.75877, -73.97871, "Rockafeller Center", "Point of Interest", "Retail, Services & Other", "30 Rockefeller Plaza", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.71305, -74.00723, "The George Washington Bridge", "Point of Interest", "Retail, Services & Other", "", "New York City", "NY", "United States", "Unknown", "Unknown", "", "Coordinates from Google maps", "Advertisement"], [40.74886, -73.98563, "Empire State Building", "Point of Interest", "Retail, Services & Other", "20 W 34th St", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.71305, -74.00723, "The Holland Tunnel", "Point of Interest", "Retail, Services & Other", "", "New York City", "NY", "United States", "Unknown", "Unknown", "", "Coordinates from Google maps", "Advertisement"], [40.75063, -73.99463, "The General Post Office", "Point of Interest", "Retail, Services & Other", "441 8th Ave.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.71305, -74.00723, "The Tri-Borough Bridge", "Point of Interest", "Retail, Services & Other", "", "New York City", "NY", "United States", "Unknown", "Unknown", "", "Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.", "Advertisement"], [40.71305, -74.00723, "Crugers Park", "Recreation", "Dining: Restaurants", "", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.76022, -73.98017, "The Theatrical District of NY", "Point of Interest", "Retail, Services & Other", "1260 6th Ave.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.81615, -73.94578, "Gailliard Press Inc.", "Printer", "Retail, Services & Other", "262 W. 135th St.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.78106, -73.97247, "The Hayden Planetarium", "Point of Interest", "Retail, Services & Other", "200 Central Park West", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.81448, -73.94071, "New Manhattan Restaurant", "Restaurant", "Dining: Restaurants", "503 Lenox Ave.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.82821, -73.94336, "La Fontaine Service", "Tailor/Cleaning", "Personal Care: Barber, Beauty & Tailors", "470 Convent Ave.", "New York City", "NY", "United States", "Katherine Fontaine", "F", "", "", "Advertisement"], [41.12824, -73.78817, "Donhaven", "Dining/Dancing", "Dining: Restaurants", "160 Marble Ave.", "Pleasantville", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [41.13337, -73.79243, "White Tower Lodge", "Dining/Dancing", "Dining: Restaurants", "", "Pleasantville", "NY", "United States", "Scott Bros.", "M", "", "", "Advertisement"], [40.82621, -73.94317, "La Fontaine Service", "Tailor/Cleaning", "Personal Care: Barber, Beauty & Tailors", "764 St. Nicholas Ave.", "New York City", "NY", "United States", "Elliott Fontaine", "M", "", "", "Advertisement"], [40.81612, -73.94361, "Little Alpha Cleaners", "Tailor/Cleaning", "Personal Care: Barber, Beauty & Tailors", "200 W. 136th St.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.80437, -73.94738, "Little Alpha Cleaners", "Tailor/Cleaning", "Personal Care: Barber, Beauty & Tailors", "84 W. 120th St.", "New York City", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.76748, -73.83314, "The New York World's Fair", "Point of Interest", "Retail, Services & Other", "", "Queens", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [41.09274, -73.86605, "Kingsland Point Park", "Recreation", "Dining: Restaurants", "", "Sleepy Hollow", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.97737, -73.75919, "Saxon Woods Golf Club", "Golf Club", "Nightlife: Taverns & Clubs", "315 Mamaroneck Rd.", "Scarsdale", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.94916, -73.82367, "Al's Barber Shop", "Barber Shop", "Personal Care: Barber, Beauty & Tailors", "144 Main St.", "Tuckahoe", "NY", "United States", "Al Henderson", "M", "", "", "Advertisement"], [40.94916, -73.82367, "Shahana Beauty Salon", "Beauty Parlor", "Personal Care: Barber, Beauty & Tailors", "144 Main St.", "Tuckahoe", "NY", "United States", "Hanna Starvis, Jaunita Lopez", "F", "", "", "Advertisement"], [40.94804, -73.82405, "Major's Lunch Room", "Restaurant", "Dining: Restaurants", "48 Washington St.", "Tuckahoe", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.94843, -73.82434, "The Butterfly Inn  Restaurant", "Restaurant", "Dining: Restaurants", "47 Washington St.", "Tuckahoe", "NY", "United States", "Juanita Lopez", "F", "", "", "Advertisement"], [40.59597, -73.5083, "Jones Beach", "Recreation", "Dining: Restaurants", "2400 Ocean Parkway", "Wantagh", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.66772, -73.70802, "Valley Stream", "Recreation", "Dining: Restaurants", "", "Valley Stream", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [41.00048, -73.66567, "Royal Garden", "Dining/Dancing", "Dining: Restaurants", "14 New Broad St.", "Portchester", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.67597, -73.64898, "Hempstead Lake", "Recreation", "Dining: Restaurants", "1000 Lake Drive", "West Hempstead", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [41.03068, -73.77026, "Southern Restaurant", "Dining/Dancing", "Dining: Restaurants", "118 Martino Ave.", "White Plains", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [41.03066, -73.77039, "Lloyd's", "Dining/Dancing", "Dining: Restaurants", "88 Martine Ave.", "White Plains", "NY", "United States", "W. Bernard", "Unknown", "", "", "Advertisement"], [40.96375, -73.84839, "Sprain Lake", "Golf Club", "Nightlife: Taverns & Clubs", "290 E Grassy Sprain Rd.", "Yonkers", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.92542, -73.87467, "Tibbets Brook Park", "Recreation", "Dining: Restaurants", "355 Midland Ave.", "Yonkers", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.95954, -73.86773, "Conrad's Inn Restaurant", "Restaurant", "Dining: Restaurants", "15 Monroe St.", "Yonkers", "NY", "United States", "G. E. Chellis", "Unknown", "", "", "Advertisement"], [41.00195, -73.72725, "Maple Moor Golf Club", "Golf Club", "Nightlife: Taverns & Clubs", "1128 North St.", "White Plains", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [40.93073, -73.89573, "Lucy's Grill", "Restaurant", "Dining: Restaurants", "231 New Main St.", "Yonkers", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"], [41.29362, -73.81295, "Mohansic Park Golf Club", "Golf Club", "Nightlife: Taverns & Clubs", "2957 Crompond Rd.", "Yorktown Heights", "NY", "United States", "Unknown", "Unknown", "", "", "Advertisement"]];
+const STYLES = {"Lodging: Tourist Homes": {"id": "cat_tourist_home", "hex": "#2E7D32", "kml_color": "ff327d2e", "icon": "http://maps.google.com/mapfiles/kml/paddle/grn-circle.png", "short": "Tourist Homes"}, "Lodging: Hotels & Motels": {"id": "cat_hotel_motel", "hex": "#1565C0", "kml_color": "ffc06515", "icon": "http://maps.google.com/mapfiles/kml/paddle/blu-Blank.png", "short": "Hotels & Motels"}, "Dining: Restaurants": {"id": "cat_restaurant", "hex": "#EF6C00", "kml_color": "ff006cef", "icon": "http://maps.google.com/mapfiles/kml/paddle/orange-circle.png", "short": "Restaurants"}, "Nightlife: Taverns & Clubs": {"id": "cat_nightlife", "hex": "#8E24AA", "kml_color": "ffaa248e", "icon": "http://maps.google.com/mapfiles/kml/paddle/purple-stars.png", "short": "Taverns & Nightlife"}, "Auto: Gas, Garages & Transport": {"id": "cat_auto", "hex": "#C62828", "kml_color": "ff2828c6", "icon": "http://maps.google.com/mapfiles/kml/paddle/red-diamond.png", "short": "Gas & Automotive"}, "Personal Care: Barber, Beauty & Tailors": {"id": "cat_personal_care", "hex": "#00838F", "kml_color": "ff8f8300", "icon": "http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png", "short": "Barber, Beauty & Tailors"}, "Retail, Services & Other": {"id": "cat_other", "hex": "#6D4C41", "kml_color": "ff414c6d", "icon": "http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png", "short": "Retail & Other Services"}};
+const PAGES = [{"page_index": 1, "capture_id": "5207703", "txt_file": "ocr/5207703g.txt", "hocr_file": "ocr/5207703g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207703&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207703"}, {"page_index": 2, "capture_id": "5207704", "txt_file": "ocr/5207704g.txt", "hocr_file": "ocr/5207704g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207704&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207704"}, {"page_index": 3, "capture_id": "5207705", "txt_file": "ocr/5207705g.txt", "hocr_file": "ocr/5207705g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207705&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207705"}, {"page_index": 4, "capture_id": "5207706", "txt_file": "ocr/5207706g.txt", "hocr_file": "ocr/5207706g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207706&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207706"}, {"page_index": 5, "capture_id": "5207707", "txt_file": "ocr/5207707g.txt", "hocr_file": "ocr/5207707g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207707&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207707"}, {"page_index": 6, "capture_id": "5207708", "txt_file": "ocr/5207708g.txt", "hocr_file": "ocr/5207708g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207708&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207708"}, {"page_index": 7, "capture_id": "5207709", "txt_file": "ocr/5207709g.txt", "hocr_file": "ocr/5207709g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207709&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207709"}, {"page_index": 8, "capture_id": "5207710", "txt_file": "ocr/5207710g.txt", "hocr_file": "ocr/5207710g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207710&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207710"}, {"page_index": 9, "capture_id": "5207711", "txt_file": "ocr/5207711g.txt", "hocr_file": "ocr/5207711g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207711&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207711"}, {"page_index": 10, "capture_id": "5207712", "txt_file": "ocr/5207712g.txt", "hocr_file": "ocr/5207712g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207712&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207712"}, {"page_index": 11, "capture_id": "5207713", "txt_file": "ocr/5207713g.txt", "hocr_file": "ocr/5207713g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207713&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207713"}, {"page_index": 12, "capture_id": "5207714", "txt_file": "ocr/5207714g.txt", "hocr_file": "ocr/5207714g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207714&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207714"}, {"page_index": 13, "capture_id": "5207715", "txt_file": "ocr/5207715g.txt", "hocr_file": "ocr/5207715g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207715&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207715"}, {"page_index": 14, "capture_id": "5207716", "txt_file": "ocr/5207716g.txt", "hocr_file": "ocr/5207716g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207716&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207716"}, {"page_index": 15, "capture_id": "5207717", "txt_file": "ocr/5207717g.txt", "hocr_file": "ocr/5207717g.hocr", "nypl_image_url": "https://images.nypl.org/index.php?id=5207717&t=w", "nypl_digital_collections_url": "https://digitalcollections.nypl.org/items/image_id/5207717"}];
+
+// Basemaps including Google Maps Roadmap, Terrain, Hybrid/Satellite, and Carto Dark/Light
+const mapLang = encodeURIComponent(navigator.language || 'en');
+const googleStreets = L.tileLayer(`https://mt1.google.com/vt/lyrs=m&hl=${mapLang}&gl=US&x={x}&y={y}&z={z}`, {
+  maxZoom: 20,
+  attribution: '&copy; Google Maps | NYPL Schomburg Center | Univ. of Redlands'
+});
+const googleTerrain = L.tileLayer(`https://mt1.google.com/vt/lyrs=p&hl=${mapLang}&gl=US&x={x}&y={y}&z={z}`, {
+  maxZoom: 20,
+  attribution: '&copy; Google Maps Terrain'
+});
+const googleHybrid = L.tileLayer(`https://mt1.google.com/vt/lyrs=y&hl=${mapLang}&gl=US&x={x}&y={y}&z={z}`, {
+  maxZoom: 20,
+  attribution: '&copy; Google Maps Satellite/Hybrid'
+});
+const cartoDark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  maxZoom: 20,
+  attribution: '&copy; OpenStreetMap &copy; CARTO'
+});
+const cartoLight = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  maxZoom: 20,
+  attribution: '&copy; OpenStreetMap &copy; CARTO'
+});
+
+const map = L.map('map', {
+  center: [38.5, -92.0],
+  zoom: 4,
+  layers: [googleStreets],
+  preferCanvas: true
+});
+
+L.control.layers({
+  "Google Maps Roadmap": googleStreets,
+  "Google Maps Terrain": googleTerrain,
+  "Google Maps Satellite Hybrid": googleHybrid,
+  "Dark Historical Theme": cartoDark,
+  "Light Minimalist Theme": cartoLight
+}, null, { position: 'topright' }).addTo(map);
+
+const markerLayer = L.layerGroup().addTo(map);
+let heatLayer = null;
+
+// Populate state dropdown
+const stateCounts = {};
+const catCounts = {};
+POINTS.forEach(p => {
+  const st = p[7] ? `${p[7]} (${p[8] || 'USA'})` : (p[8] || 'Unspecified');
+  stateCounts[st] = (stateCounts[st] || 0) + 1;
+  catCounts[p[4]] = (catCounts[p[4]] || 0) + 1;
+});
+
+const stateSelect = document.getElementById('stateSelect');
+Object.keys(stateCounts).sort().forEach(st => {
+  const opt = document.createElement('option');
+  opt.value = st;
+  opt.textContent = `${st} (${stateCounts[st]})`;
+  stateSelect.appendChild(opt);
+});
+
+// Populate categories
+const activeCats = new Set(Object.keys(STYLES));
+const catList = document.getElementById('categoryList');
+Object.entries(STYLES).forEach(([catName, st]) => {
+  const cnt = catCounts[catName] || 0;
+  const row = document.createElement('label');
+  row.className = 'cat-item';
+  row.innerHTML = `
+    <span class="cat-left">
+      <input type="checkbox" checked data-cat="${catName}"/>
+      <span class="swatch" style="background:${st.hex}"></span>
+      <span>${st.short}</span>
+    </span>
+    <span class="count-pill">${cnt}</span>
+  `;
+  row.querySelector('input').addEventListener('change', (e) => {
+    if (e.target.checked) activeCats.add(catName);
+    else activeCats.delete(catName);
+    renderMap();
+  });
+  catList.appendChild(row);
+});
+
+// Populate OCR page grid if available
+if (PAGES && PAGES.length > 0) {
+  document.getElementById('ocrSection').style.display = 'block';
+  document.getElementById('pageCount').textContent = PAGES.length;
+  const grid = document.getElementById('pageGrid');
+  PAGES.forEach(pg => {
+    const a = document.createElement('a');
+    a.className = 'page-link';
+    a.href = pg.txt_file;
+    a.target = '_blank';
+    a.title = `Open OCR text for Page ${pg.page_index} (NYPL Capture ${pg.capture_id})`;
+    a.textContent = `Pg ${pg.page_index}`;
+    grid.appendChild(a);
+  });
+}
+
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderMap(fitBounds = false) {
+  markerLayer.clearLayers();
+  if (heatLayer) {
+    map.removeLayer(heatLayer);
+    heatLayer = null;
+  }
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  const stFilter = stateSelect.value;
+  const showHeat = document.getElementById('heatToggle').checked;
+
+  const bounds = [];
+  const heatPts = [];
+  let shown = 0;
+
+  POINTS.forEach(p => {
+    const [lat, lon, name, btype, cat, addr, city, state, country, owner, gender, bnotes, enotes, stype] = p;
+    if (!activeCats.has(cat)) return;
+    const stKey = state ? `${state} (${country || 'USA'})` : (country || 'Unspecified');
+    if (stFilter && stKey !== stFilter) return;
+    if (q) {
+      const hay = `${name} ${btype} ${addr} ${city} ${state} ${owner} ${bnotes} ${enotes}`.toLowerCase();
+      if (!hay.includes(q)) return;
+    }
+
+    shown++;
+    bounds.push([lat, lon]);
+    heatPts.push([lat, lon, 0.8]);
+
+    const st = STYLES[cat] || STYLES["Retail, Services & Other"];
+    const marker = L.circleMarker([lat, lon], {
+      radius: 6,
+      fillColor: st.hex,
+      color: '#ffffff',
+      weight: 1.2,
+      opacity: 0.9,
+      fillOpacity: 0.85
+    });
+
+    let popupHtml = `<div class="popup-title">${escapeHtml(name)}</div><div class="popup-meta">`;
+    popupHtml += `<div>${escapeHtml(btype || st.short)}</div>`;
+    popupHtml += `<div>${escapeHtml([addr, city, state, country].filter(Boolean).join(', '))}</div>`;
+    if (owner && owner.toLowerCase() !== 'unknown') {
+      popupHtml += `<div><b>Owner:</b> ${escapeHtml(owner)}${gender && gender.toLowerCase() !== 'unknown' ? ' (' + escapeHtml(gender) + ')' : ''}</div>`;
+    }
+    if (bnotes) popupHtml += `<div><b>Notes:</b> ${escapeHtml(bnotes)}</div>`;
+    if (enotes) popupHtml += `<div><b>Archival:</b> ${escapeHtml(enotes)}</div>`;
+    popupHtml += `<div style="margin-top:6px;"><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((addr ? addr + ', ' : '') + city + ' ' + state)}" target="_blank" style="color:#66bb6a;">Open in Google Maps &nearr;</a></div>`;
+    popupHtml += `</div>`;
+
+    marker.bindPopup(popupHtml);
+    markerLayer.addLayer(marker);
+  });
+
+  if (showHeat && heatPts.length > 0 && typeof L.heatLayer === 'function') {
+    heatLayer = L.heatLayer(heatPts, { radius: 22, blur: 16, maxZoom: 12 }).addTo(map);
+  }
+
+  if (fitBounds && bounds.length > 0) {
+    map.fitBounds(bounds, { padding: [30, 30], maxZoom: 13 });
+  }
+
+  document.getElementById('visibleCount').textContent = `${shown.toLocaleString()} / ${POINTS.length.toLocaleString()} shown`;
+}
+
+document.getElementById('searchInput').addEventListener('input', () => renderMap(false));
+stateSelect.addEventListener('change', () => renderMap(true));
+document.getElementById('heatToggle').addEventListener('change', () => renderMap(false));
+
+const dlModal = document.getElementById('downloadsModal');
+document.getElementById('openDownloadsModalBtn').addEventListener('click', () => dlModal.classList.add('open'));
+document.getElementById('closeDownloadsModalBtn').addEventListener('click', () => dlModal.classList.remove('open'));
+dlModal.addEventListener('click', (e) => { if (e.target === dlModal) dlModal.classList.remove('open'); });
+document.querySelectorAll('#dlTabs button[data-dltab]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const t = btn.dataset.dltab;
+    document.querySelectorAll('#dlTabs button[data-dltab]').forEach(b => b.classList.toggle('active', b === btn));
+    document.querySelectorAll('#downloadsModal .dl-panel').forEach(p => p.classList.toggle('active', p.dataset.dlpanel === t));
+  });
+});
+
+const faqModal = document.getElementById('faqModal');
+document.getElementById('openFaqModalBtn').addEventListener('click', () => faqModal.classList.add('open'));
+document.getElementById('closeFaqModalBtn').addEventListener('click', () => faqModal.classList.remove('open'));
+faqModal.addEventListener('click', (e) => { if (e.target === faqModal) faqModal.classList.remove('open'); });
+
+renderMap(true);
+</script>
+</body>
+</html>

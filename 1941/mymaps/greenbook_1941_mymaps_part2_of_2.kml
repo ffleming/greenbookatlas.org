@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>The Negro Motorist Green Book: 1941 - Part 2 of 2 (90 Listings)</name>
+    <description>Google My Maps layer 2/2 (&lt;=2,000 feature limit). Published in 1941 (52 pages) with sponsorship from Esso Standard Oil marketer James A. Jackson (&#x27;The Esso Man&#x27;), just before wartime gasoline and paper rationing suspended annual publication from 1942 through 1945.</description>
+    <Style id="cat_tourist_home">
+      <IconStyle>
+        <color>ff327d2e</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_hotel_motel">
+      <IconStyle>
+        <color>ffc06515</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-Blank.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_restaurant">
+      <IconStyle>
+        <color>ff006cef</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_nightlife">
+      <IconStyle>
+        <color>ffaa248e</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/purple-stars.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_auto">
+      <IconStyle>
+        <color>ff2828c6</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_personal_care">
+      <IconStyle>
+        <color>ff8f8300</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+    <Style id="cat_other">
+      <IconStyle>
+        <color>ff414c6d</color>
+        <scale>1.0</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href></Icon>
+      </IconStyle>
+      <LabelStyle><scale>0.8</scale></LabelStyle>
+      <BalloonStyle><text><![CDATA[$[description]]]></text></BalloonStyle>
+    </Style>
+      <Placemark id="gb_63078">
+        <name>L. Bradford Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">L. Bradford Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>3 Chop Road</td></tr><tr><td><b>Location:</b></td><td>Richmond, VA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>L. Bradford</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>L. Bradford</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>3 Chop Road</value></Data><Data name="City"><value>Richmond</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-77.532641,37.589431,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63079">
+        <name>Preston St. Service Station</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Preston St. Service Station</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Service Station (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>2nd St. &amp; Preston St.</td></tr><tr><td><b>Location:</b></td><td>Richmond, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Service Station</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2nd St. &amp; Preston St.</value></Data><Data name="City"><value>Richmond</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-77.434209,37.550884,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63080">
+        <name>Y.M.C.A.</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Y.M.C.A.</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>28 Wells Ave. N. W.</td></tr><tr><td><b>Location:</b></td><td>Roanoke, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>28 Wells Ave. N. W.</value></Data><Data name="City"><value>Roanoke</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-79.942167,37.275327,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63081">
+        <name>Dumas Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Dumas Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>Henry St. N.W.</td></tr><tr><td><b>Location:</b></td><td>Roanoke, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Approximate coordinates from Google Maps based on map found at http://community.village.virginia.edu/greenbooks/states/virginia/</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Henry St. N.W.</value></Data><Data name="City"><value>Roanoke</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Approximate coordinates from Google Maps based on map found at http://community.village.virginia.edu/greenbooks/states/virginia/</value></Data></ExtendedData>
+        <Point><coordinates>-79.942333,37.274467,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63082">
+        <name>Tom’s Place Tavern</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Tom’s Place Tavern</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tavern (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Roanoke, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tavern</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Roanoke</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-79.939056,37.271133,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63083">
+        <name>F. &amp; G. Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">F. &amp; G. Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>114 N. Henry St.</td></tr><tr><td><b>Location:</b></td><td>Roanoke, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>114 N. Henry St.</value></Data><Data name="City"><value>Roanoke</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-79.942405,37.274511,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63084">
+        <name>Y.W.C.A.</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Y.W.C.A.</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>208 2nd St. N. W.</td></tr><tr><td><b>Location:</b></td><td>Roanoke, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>208 2nd St. N. W.</value></Data><Data name="City"><value>Roanoke</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-79.943675,37.27571,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63085">
+        <name>Brown’s Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Brown’s Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>102 E. Virginia St.</td></tr><tr><td><b>Location:</b></td><td>South Hill, VA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Melvin Brown (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Address from http://community.village.virginia.edu/greenbooks/content/browns-hotel</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Melvin Brown</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>102 E. Virginia St.</value></Data><Data name="City"><value>South Hill</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Address from http://community.village.virginia.edu/greenbooks/content/browns-hotel</value></Data></ExtendedData>
+        <Point><coordinates>-78.130337,36.723622,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63086">
+        <name>Groom’s Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Groom’s Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>South Hill, VA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>John Groom (M)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>John Groom</value></Data><Data name="OwnerGender"><value>M</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>South Hill</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-78.128013,36.72619,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63087">
+        <name>Pannell&#x27;s Inn</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Pannell&#x27;s Inn</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>613 N. Augusta St.</td></tr><tr><td><b>Location:</b></td><td>Staunton, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>613 N. Augusta St.</value></Data><Data name="City"><value>Staunton</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-79.072627,38.155057,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63088">
+        <name>Maple Leaf Garage</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Maple Leaf Garage</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Garage (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>High St. &amp; Henry</td></tr><tr><td><b>Location:</b></td><td>Roanoke, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Garage</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>High St. &amp; Henry</value></Data><Data name="City"><value>Roanoke</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.053699,37.303805,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63089">
+        <name>Johnson’s Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Johnson’s Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>301 N. Central Ave.</td></tr><tr><td><b>Location:</b></td><td>Staunton, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>301 N. Central Ave.</value></Data><Data name="City"><value>Staunton</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-79.073859,38.154372,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63090">
+        <name>F. T. Jones Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">F. T. Jones Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>515 Baptist St.</td></tr><tr><td><b>Location:</b></td><td>Staunton, VA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>F. T. Jones</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>F. T. Jones</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>515 Baptist St.</value></Data><Data name="City"><value>Staunton</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-79.071356,38.156319,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63091">
+        <name>McGuire’s Inn</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">McGuire’s Inn</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>Marsh St.</td></tr><tr><td><b>Location:</b></td><td>Tappahannock, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>Approximate coordinates from Google Maps based on map found at http://community.village.virginia.edu/greenbooks/states/virginia/</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Marsh St.</value></Data><Data name="City"><value>Tappahannock</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>Approximate coordinates from Google Maps based on map found at http://community.village.virginia.edu/greenbooks/states/virginia/</value></Data></ExtendedData>
+        <Point><coordinates>-76.867325,37.927329,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63092">
+        <name>New Evans Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">New Evans Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>224 Sharp St.</td></tr><tr><td><b>Location:</b></td><td>Winchester, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr><tr><td><b>Archival Notes:</b></td><td>address from 1947 booklet</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>224 Sharp St.</value></Data><Data name="City"><value>Winchester</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value>address from 1947 booklet</value></Data></ExtendedData>
+        <Point><coordinates>-78.161685,39.182206,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63093">
+        <name>Ruth’s Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Ruth’s Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>128 E. Cecil St.</td></tr><tr><td><b>Location:</b></td><td>Winchester, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>128 E. Cecil St.</value></Data><Data name="City"><value>Winchester</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-78.164155,39.179988,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63094">
+        <name>Dunbar Tea Room Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Dunbar Tea Room Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>21 W. Hart St.</td></tr><tr><td><b>Location:</b></td><td>Winchester, VA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>21 W. Hart St.</value></Data><Data name="City"><value>Winchester</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-78.170226,39.17455,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63095">
+        <name>Clyde Blackwells Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Clyde Blackwells Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Manchester, VT, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Manchester</value></Data><Data name="State"><value>VT</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.072109,43.162131,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63096">
+        <name>The Pates Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">The Pates Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>86 Archibald St.</td></tr><tr><td><b>Location:</b></td><td>Burlington, VT, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>86 Archibald St.</value></Data><Data name="City"><value>Burlington</value></Data><Data name="State"><value>VT</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-73.210289,44.487901,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63097">
+        <name>J. H. Meade Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">J. H. Meade Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>83 Strongs Ave.</td></tr><tr><td><b>Location:</b></td><td>Rutland, VT, United States</td></tr><tr><td><b>Proprietor:</b></td><td>J. H. Meade</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>J. H. Meade</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>83 Strongs Ave.</value></Data><Data name="City"><value>Rutland</value></Data><Data name="State"><value>VT</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-72.974489,43.601702,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63098">
+        <name>Mrs. Jos. Willis Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. Jos. Willis Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>N. Main St.</td></tr><tr><td><b>Location:</b></td><td>Winchester, VA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. Jos. Willis (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. Jos. Willis</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>N. Main St.</value></Data><Data name="City"><value>Winchester</value></Data><Data name="State"><value>VA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-78.156229,39.125274,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63099">
+        <name>Mrs. J. Samuels Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. J. Samuels Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>2214 Wedmore Ave.</td></tr><tr><td><b>Location:</b></td><td>Everett, WA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. J. Samuels (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. J. Samuels</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>2214 Wedmore Ave.</value></Data><Data name="City"><value>Everett</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.207043,47.987983,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63100">
+        <name>Coles-Brown Bungalow</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Coles-Brown Bungalow</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>7 Sherman Ave.</td></tr><tr><td><b>Location:</b></td><td>Northfield, VT, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. A. J. Coles (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Advertisement</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. A. J. Coles</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>7 Sherman Ave.</value></Data><Data name="City"><value>Northfield</value></Data><Data name="State"><value>VT</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Advertisement</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-72.656812,44.156826,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63101">
+        <name>Mrs. J. T. Payne Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. J. T. Payne Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>2132 Oaks Ave.</td></tr><tr><td><b>Location:</b></td><td>Everett, WA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. J. T. Payne (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. J. T. Payne</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>2132 Oaks Ave.</value></Data><Data name="City"><value>Everett</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.204204,47.988676,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63102">
+        <name>Mrs. G. Sarnuels Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. G. Sarnuels Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>3620 Hoyt Ave.</td></tr><tr><td><b>Location:</b></td><td>Everett, WA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. G. Sarnuels (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. G. Sarnuels</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>3620 Hoyt Ave.</value></Data><Data name="City"><value>Everett</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.209651,47.969125,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63103">
+        <name>Dicks Barber Shop</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Dicks Barber Shop</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Barber Shop (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>413 Maynard St.</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Barber Shop</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>413 Maynard St.</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.325156,47.599005,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63104">
+        <name>Hayes Barber Shop</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Hayes Barber Shop</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Barber Shop (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>2227 East Madison</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Barber Shop</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2227 East Madison</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.30318,47.618712,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63105">
+        <name>Stockards Barber Shop</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Stockards Barber Shop</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Barber Shop (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>2032 East Madison</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Barber Shop</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2032 East Madison</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.305191,47.617726,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63106">
+        <name>Jones Beauty Parlor</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Jones Beauty Parlor</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Beauty Parlor (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>2223 East Madison</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Beauty Parlor</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2223 East Madison</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.303589,47.618393,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63107">
+        <name>Pauline’s Beauty Parlor</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Pauline’s Beauty Parlor</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Beauty Parlor (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>2221 East Madison</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Beauty Parlor</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2221 East Madison</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.303612,47.618377,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63108">
+        <name>Atlas Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Atlas Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>420 Maynard St.</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>420 Maynard St.</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.325058,47.598576,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63109">
+        <name>Coast Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Coast Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>901 King St.</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>901 King St.</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.320411,47.598301,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63110">
+        <name>Y.W.C.A.</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Y.W.C.A.</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>102 North St.</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>102 North St.</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.35009,47.702885,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63111">
+        <name>Dixie Chicken Inn</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Dixie Chicken Inn</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>928 12th Ave.</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>928 12th Ave.</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.316771,47.611266,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63112">
+        <name>Smith Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Smith Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>2229 East Madison</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2229 East Madison</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.303268,47.618608,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63113">
+        <name>Stoemer Tavern</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Stoemer Tavern</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tavern (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>2047 East Madison</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tavern</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2047 East Madison</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.305141,47.617613,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63114">
+        <name>Tokyo Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Tokyo Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>855 Jackson St.</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>855 Jackson St.</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.32195,47.599139,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63115">
+        <name>Hill Top Tavern</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Hill Top Tavern</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tavern (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>1200 Jackson St.</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tavern</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1200 Jackson St.</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.316693,47.599299,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63116">
+        <name>Moszee Service Station</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Moszee Service Station</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Service Station (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>19 E. Madison</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Service Station</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>19 E. Madison</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.33782,47.60396,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63117">
+        <name>Wayside Inn</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Wayside Inn</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1107 W. Willow</td></tr><tr><td><b>Location:</b></td><td>Walla Walla, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1107 W. Willow</value></Data><Data name="City"><value>Walla Walla</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-118.351238,46.057424,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63118">
+        <name>Garner Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Garner Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>2220 East Madison</td></tr><tr><td><b>Location:</b></td><td>Seattle, WA, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>2220 East Madison</value></Data><Data name="City"><value>Seattle</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.303241,47.618785,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63119">
+        <name>Mrs. J. H. Carter Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. J. H. Carter Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1017 S. Trafton St.</td></tr><tr><td><b>Location:</b></td><td>Tacoma, WA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. J. H. Carter (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. J. H. Carter</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>1017 S. Trafton St.</value></Data><Data name="City"><value>Tacoma</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.466962,47.251167,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63120">
+        <name>Mrs. A. Robinson Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. A. Robinson Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1906 S. I St.</td></tr><tr><td><b>Location:</b></td><td>Tacoma, WA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. A. Robinson (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. A. Robinson</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>1906 S. I St.</value></Data><Data name="City"><value>Tacoma</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-122.447048,47.243933,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63121">
+        <name>Mrs. W. H. Jones Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. W. H. Jones Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>310 Third Ave.</td></tr><tr><td><b>Location:</b></td><td>Yakima, WA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. W. H. Jones (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. W. H. Jones</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>310 Third Ave.</value></Data><Data name="City"><value>Yakima</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-119.996925,46.21763,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63122">
+        <name>L. A. Branum Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">L. A. Branum Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>515 S. 1st</td></tr><tr><td><b>Location:</b></td><td>Yakima, WA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>L. A. Branum</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>L. A. Branum</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>515 S. 1st</value></Data><Data name="City"><value>Yakima</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-120.502449,46.594769,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63123">
+        <name>Mrs. V. Williams Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. V. Williams Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>97 S. Seymour St.</td></tr><tr><td><b>Location:</b></td><td>Fond Du Lac, WI, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. V. Williams (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. V. Williams</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>97 S. Seymour St.</value></Data><Data name="City"><value>Fond Du Lac</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-88.466781,43.77622,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63124">
+        <name>Mrs. E. Pirtle Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. E. Pirtle Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>45 E. 11th St.</td></tr><tr><td><b>Location:</b></td><td>Fond Du Lac, WI, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. E. Pirtle (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. E. Pirtle</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>45 E. 11th St.</value></Data><Data name="City"><value>Fond Du Lac</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-88.445678,43.766567,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63125">
+        <name>L. Shadd Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">L. Shadd Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>37 King St.</td></tr><tr><td><b>Location:</b></td><td>Oshkosh, WI, United States</td></tr><tr><td><b>Proprietor:</b></td><td>L. Shadd</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>L. Shadd</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>37 King St.</value></Data><Data name="City"><value>Oshkosh</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-88.668609,43.945468,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63126">
+        <name>F. Pemberton Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">F. Pemberton Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>239 Liberty St.</td></tr><tr><td><b>Location:</b></td><td>Oshkosh, WI, United States</td></tr><tr><td><b>Proprietor:</b></td><td>F. Pemberton</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>F. Pemberton</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>239 Liberty St.</value></Data><Data name="City"><value>Oshkosh</value></Data><Data name="State"><value>WI</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-88.548225,44.035721,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63127">
+        <name>H. C. Deering Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">H. C. Deering Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>508 S. 3rd St.</td></tr><tr><td><b>Location:</b></td><td>Yakima, WA, United States</td></tr><tr><td><b>Proprietor:</b></td><td>H. C. Deering</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>H. C. Deering</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>508 S. 3rd St.</value></Data><Data name="City"><value>Yakima</value></Data><Data name="State"><value>WA</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-120.499842,46.596167,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63128">
+        <name>Ferguson Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Ferguson Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Charleston, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Charleston</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.638362,38.351194,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63129">
+        <name>Traveler’s Inn</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Traveler’s Inn</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>602 Raleigh St.</td></tr><tr><td><b>Location:</b></td><td>Bluefield, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>602 Raleigh St.</value></Data><Data name="City"><value>Bluefield</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.220945,37.269369,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63130">
+        <name>Home Service Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Home Service Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>338 S. Fayette St.</td></tr><tr><td><b>Location:</b></td><td>Beckley, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>338 S. Fayette St.</value></Data><Data name="City"><value>Beckley</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.187989,37.775724,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63131">
+        <name>Mrs. Pack Beauty Parlor</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Mrs. Pack Beauty Parlor</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Beauty Parlor (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>1612 Artisen Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. Pack (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Beauty Parlor</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Mrs. Pack</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>1612 Artisen Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.429315,38.416663,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63132">
+        <name>Palace Café</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Palace Café</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tavern (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>910 Washington St.</td></tr><tr><td><b>Location:</b></td><td>Charleston, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tavern</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>910 Washington St.</value></Data><Data name="City"><value>Charleston</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.63094,38.350083,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63133">
+        <name>J. Harriston Barber Shop</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">J. Harriston Barber Shop</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Barber Shop (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>1615 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>J. Harriston</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Barber Shop</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>J. Harriston</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1615 8th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.42917,38.417263,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63134">
+        <name>South Side Garage</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">South Side Garage</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Garage (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>716 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Garage</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>716 8th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.445257,38.414552,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63135">
+        <name>Fair Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Fair Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>Address not specified</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>Address not specified</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.445225,38.419124,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63136">
+        <name>Massey&#x27;s Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Massey&#x27;s Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>837 7th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>837 7th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.443764,38.416462,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63137">
+        <name>White Front Tavern</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">White Front Tavern</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tavern (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>1007 Washington St.</td></tr><tr><td><b>Location:</b></td><td>Charleston, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tavern</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1007 Washington St.</value></Data><Data name="City"><value>Charleston</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.629838,38.349059,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63138">
+        <name>Southern Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Southern Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>921 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>921 8th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.441846,38.415054,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63139">
+        <name>The Ross Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">The Ross Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>911 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>911 8th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.441793,38.415094,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63140">
+        <name>Appomattox Club</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Appomattox Club</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Night Club (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>1659 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Night Club</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1659 8th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.427715,38.417495,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63141">
+        <name>J. Gross Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">J. Gross Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>839 7th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>J. Gross</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>J. Gross</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>839 7th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.443164,38.416592,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63142">
+        <name>Monroe’s Tavern</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Monroe’s Tavern</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tavern (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>1616 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tavern</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1616 8th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.429722,38.417251,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63143">
+        <name>The Alpha Tavern</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">The Alpha Tavern</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tavern (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>1624 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tavern</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1624 8th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.429368,38.417314,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63144">
+        <name>E. Washington Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">E. Washington Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1657 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>E. Washington</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>E. Washington</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1657 8th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.427778,38.417483,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63145">
+        <name>Mrs. R. J. Lewis Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. R. J. Lewis Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1412 10th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. R. J. Lewis (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. R. J. Lewis</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>1412 10th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.432016,38.414006,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63146">
+        <name>Mrs. C. J. Barnett Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. C. J. Barnett Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>810 7th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. C. J. Barnett (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. C. J. Barnett</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>810 7th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.44398,38.416512,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63147">
+        <name>Mrs. Jones Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. Jones Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1824 10th ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. Jones (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. Jones</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>1824 10th ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.423241,38.415988,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63148">
+        <name>Mrs. B. Bowling Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. B. Bowling Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1517 8th Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. B. Bowling (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. B. Bowling</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>1517 8th Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.431541,38.416862,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63149">
+        <name>American Legion Night Club</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">American Legion Night Club</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Night Club (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>812 Avery St.</td></tr><tr><td><b>Location:</b></td><td>Parkersburg, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Night Club</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>812 Avery St.</value></Data><Data name="City"><value>Parkersburg</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.555808,39.266591,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63150">
+        <name>Capheart Hotel</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Capheart Hotel</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>14 Virginia Ave.</td></tr><tr><td><b>Location:</b></td><td>Welch, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>14 Virginia Ave.</value></Data><Data name="City"><value>Welch</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-81.585118,37.430629,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63151">
+        <name>Sterling Service Station</name>
+        <styleUrl>#cat_auto</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#C62828;">Sterling Service Station</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Service Station (Auto: Gas, Garages &amp; Transport)</td></tr><tr><td><b>Address:</b></td><td>12th St. &amp; 3rd Ave.</td></tr><tr><td><b>Location:</b></td><td>Huntington, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Service Station</value></Data><Data name="CategoryGroup"><value>Auto: Gas, Garages &amp; Transport</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>12th St. &amp; 3rd Ave.</value></Data><Data name="City"><value>Huntington</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-82.439015,38.422829,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63152">
+        <name>American Legion Night Club</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">American Legion Night Club</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Night Club (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>1516 Main St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Night Club</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1516 Main St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.723228,40.064211,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63153">
+        <name>Miss Hall Beauty Parlor</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Miss Hall Beauty Parlor</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Beauty Parlor (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>Chapline St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Miss Hall (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Beauty Parlor</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Miss Hall</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>Chapline St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.722189,40.071455,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63154">
+        <name>Miss Taylor Beauty Parlor</name>
+        <styleUrl>#cat_personal_care</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#00838F;">Miss Taylor Beauty Parlor</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Beauty Parlor (Personal Care: Barber, Beauty &amp; Tailors)</td></tr><tr><td><b>Address:</b></td><td>Chapline St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Miss Taylor (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Beauty Parlor</value></Data><Data name="CategoryGroup"><value>Personal Care: Barber, Beauty &amp; Tailors</value></Data><Data name="OwnerName"><value>Miss Taylor</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>Chapline St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.722189,40.071455,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63155">
+        <name>Elks Club</name>
+        <styleUrl>#cat_nightlife</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#8E24AA;">Elks Club</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Night Club (Nightlife: Taverns &amp; Clubs)</td></tr><tr><td><b>Address:</b></td><td>1010 Chapline St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Night Club</value></Data><Data name="CategoryGroup"><value>Nightlife: Taverns &amp; Clubs</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1010 Chapline St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.721757,40.070529,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63156">
+        <name>Mrs. W. Turner Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. W. Turner Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>114 12th St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. W. Turner (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. W. Turner</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>114 12th St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.718217,40.067673,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63157">
+        <name>Singetlery Restaurant</name>
+        <styleUrl>#cat_restaurant</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#EF6C00;">Singetlery Restaurant</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Restaurant (Dining: Restaurants)</td></tr><tr><td><b>Address:</b></td><td>1043 Chapline St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Restaurant</value></Data><Data name="CategoryGroup"><value>Dining: Restaurants</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>1043 Chapline St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.721783,40.069789,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63158">
+        <name>Mrs. C. Early Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. C. Early Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>132 12th St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. C. Early (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. C. Early</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>132 12th St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.71723,40.067687,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63159">
+        <name>Mrs. J. E. Edwards Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. J. E. Edwards Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>347 N. Grant</td></tr><tr><td><b>Location:</b></td><td>Casper, WY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. J. E. Edwards (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. J. E. Edwards</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>347 N. Grant</value></Data><Data name="City"><value>Casper</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-106.316658,42.85307,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63160">
+        <name>H. Keeling Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">H. Keeling Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>331 N. Grant</td></tr><tr><td><b>Location:</b></td><td>Casper, WY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>H. Keeling</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>H. Keeling</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>331 N. Grant</value></Data><Data name="City"><value>Casper</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-106.316657,42.852902,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63161">
+        <name>Brooks Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Brooks Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>138 Church St.</td></tr><tr><td><b>Location:</b></td><td>White Sulphur Springs, WV, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>138 Church St.</value></Data><Data name="City"><value>White Sulphur Springs</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.298642,37.792689,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63162">
+        <name>Mrs. G. Anderson Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. G. Anderson Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>320 N. Lincoln St.</td></tr><tr><td><b>Location:</b></td><td>Casper, WY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. G. Anderson (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. G. Anderson</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>320 N. Lincoln St.</value></Data><Data name="City"><value>Casper</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-106.315356,42.85299,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63163">
+        <name>Mrs. R. Williams Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. R. Williams Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>1007 Chapline St.</td></tr><tr><td><b>Location:</b></td><td>Wheeling, WV, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. R. Williams (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. R. Williams</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>1007 Chapline St.</value></Data><Data name="City"><value>Wheeling</value></Data><Data name="State"><value>WV</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-80.721915,40.070547,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63164">
+        <name>Barbeque Inn</name>
+        <styleUrl>#cat_hotel_motel</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#1565C0;">Barbeque Inn</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Hotel (Lodging: Hotels &amp; Motels)</td></tr><tr><td><b>Address:</b></td><td>622 W. 20th St.</td></tr><tr><td><b>Location:</b></td><td>Cheyenne, WY, United States</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Hotel</value></Data><Data name="CategoryGroup"><value>Lodging: Hotels &amp; Motels</value></Data><Data name="OwnerName"><value>Unknown</value></Data><Data name="OwnerGender"><value>Unknown</value></Data><Data name="Address"><value>622 W. 20th St.</value></Data><Data name="City"><value>Cheyenne</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-104.822514,41.13452,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63165">
+        <name>Mrs. I. Randall Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. I. Randall Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>612 W. 18th St.</td></tr><tr><td><b>Location:</b></td><td>Cheyenne, WY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. I. Randall (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. I. Randall</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>612 W. 18th St.</value></Data><Data name="City"><value>Cheyenne</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-104.821584,41.132653,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63166">
+        <name>Mrs. M. Herman Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. M. Herman Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>621 W. 18th St.</td></tr><tr><td><b>Location:</b></td><td>Cheyenne, WY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. M. Herman (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. M. Herman</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>621 W. 18th St.</value></Data><Data name="City"><value>Cheyenne</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-104.821293,41.132627,0</coordinates></Point>
+      </Placemark>
+      <Placemark id="gb_63167">
+        <name>Mrs. R. Collins Tourist Home</name>
+        <styleUrl>#cat_tourist_home</styleUrl>
+        <description><![CDATA[<div style="font-family:Arial,sans-serif;font-size:13px;line-height:1.4;"><h3 style="margin:0 0 6px 0;color:#2E7D32;">Mrs. R. Collins Tourist Home</h3><table style="border-collapse:collapse;width:100%;"><tr><td><b>Edition:</b></td><td>1941</td></tr><tr><td><b>Category:</b></td><td>Tourist Home (Lodging: Tourist Homes)</td></tr><tr><td><b>Address:</b></td><td>915 7th St.</td></tr><tr><td><b>Location:</b></td><td>Rock Springs, WY, United States</td></tr><tr><td><b>Proprietor:</b></td><td>Mrs. R. Collins (F)</td></tr><tr><td><b>Entry Type:</b></td><td>Listing</td></tr></table></div>]]></description>
+        <ExtendedData><Data name="Edition"><value>1941</value></Data><Data name="BusinessType"><value>Tourist Home</value></Data><Data name="CategoryGroup"><value>Lodging: Tourist Homes</value></Data><Data name="OwnerName"><value>Mrs. R. Collins</value></Data><Data name="OwnerGender"><value>F</value></Data><Data name="Address"><value>915 7th St.</value></Data><Data name="City"><value>Rock Springs</value></Data><Data name="State"><value>WY</value></Data><Data name="Country"><value>United States</value></Data><Data name="SourceType"><value>Listing</value></Data><Data name="BookNotes"><value></value></Data><Data name="DataEditorNotes"><value></value></Data></ExtendedData>
+        <Point><coordinates>-109.216242,41.590923,0</coordinates></Point>
+      </Placemark>
+  </Document>
+</kml>

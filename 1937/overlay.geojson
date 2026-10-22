@@ -1,0 +1,2850 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "edition": "1937",
+    "title": "The Negro Motorist Green Book: 1937",
+    "role": "Earliest Surviving Edition",
+    "feature_count": 86,
+    "nypl_collection_url": "https://digitalcollections.nypl.org/items/88223f10-8936-0132-0483-58d385a7b928"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 68246,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.346433,
+          40.734427
+        ]
+      },
+      "properties": {
+        "id": 68246,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Belmont Lake",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "625 Belmont Ave.",
+        "address2": "",
+        "city": "Babylon",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "Address from Google maps",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68247,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.059741,
+          40.304636
+        ]
+      },
+      "properties": {
+        "id": 68247,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Westview Cottage Restaurant",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Della Weaver",
+        "owner_gender": "F",
+        "address": "",
+        "address2": "",
+        "city": "Eatontown",
+        "state": "NJ",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68248,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.485147,
+          40.755877
+        ]
+      },
+      "properties": {
+        "id": 68248,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Bethpage State Park",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "1001 Stewart Ave.",
+        "address2": "",
+        "city": "Bethpage",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68249,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953443,
+          40.871314
+        ]
+      },
+      "properties": {
+        "id": 68249,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Harlem on the Hudson",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "Hudson Terrace Road",
+        "address2": "",
+        "city": "Englewood Cliffs",
+        "state": "NJ",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68250,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943622,
+          40.576783
+        ]
+      },
+      "properties": {
+        "id": 68250,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Coney Island",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "801 Riegelmann Boardwalk",
+        "address2": "",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68251,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.975731,
+          40.575112
+        ]
+      },
+      "properties": {
+        "id": 68251,
+        "edition": "1937",
+        "year": 1937,
+        "name": "The Aquarium",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "602 Surf Ave.",
+        "address2": "",
+        "city": "Brooklyn",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68252,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.849498,
+          41.009919
+        ]
+      },
+      "properties": {
+        "id": 68252,
+        "edition": "1937",
+        "year": 1937,
+        "name": "V. Everitt Macy Park",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "Saw Mill River Rd.",
+        "city": "Ardsley",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68253,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.882939,
+          41.192569
+        ]
+      },
+      "properties": {
+        "id": 68253,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Croton Point Beach",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "1 Croton Point Ave.",
+        "address2": "",
+        "city": "Croton-On-Hudson",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68254,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.173559,
+          40.741222
+        ]
+      },
+      "properties": {
+        "id": 68254,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Heckscher State Park",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "1 Heckscher State Pkwy",
+        "address2": "",
+        "city": "East Islip",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.94875,
+          40.74482
+        ]
+      },
+      "properties": {
+        "id": 68255,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Fire Island",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "",
+        "city": "Long Island",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68256,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.821703,
+          41.052146
+        ]
+      },
+      "properties": {
+        "id": 68256,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Clark's Tavern",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "91 Saw Mill River Road",
+        "address2": "",
+        "city": "Elmsford",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68257,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.76728,
+          40.931204
+        ]
+      },
+      "properties": {
+        "id": 68257,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Park Tavern",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "John Olsey, Lucille Boyd",
+        "owner_gender": "M",
+        "address": "",
+        "address2": "Fifth Ave. and Valley Place",
+        "city": "Larchmont",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68258,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.838096,
+          40.906055
+        ]
+      },
+      "properties": {
+        "id": 68258,
+        "edition": "1937",
+        "year": 1937,
+        "name": "The Favorite Grill",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "John B. Steward",
+        "owner_gender": "M",
+        "address": "154 S. 7th Ave.",
+        "address2": "",
+        "city": "Mt. Vernon",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68259,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.792965,
+          40.915924
+        ]
+      },
+      "properties": {
+        "id": 68259,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Orchid Beauty Shoppe",
+        "business_type": "Beauty Parlor",
+        "category_group": "Personal Care: Barber, Beauty & Tailors",
+        "owner_name": "Lillina Walker",
+        "owner_gender": "F",
+        "address": "57 Winyah Ave.",
+        "address2": "",
+        "city": "New Rochelle",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#00838F",
+        "marker-symbol": "Barber, Beauty & Tailors"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68260,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.265846,
+          40.896869
+        ]
+      },
+      "properties": {
+        "id": 68260,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Sunken Meadow",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "Rte. 25A and Sunken Meadow Parkway",
+        "city": "Kings Park",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68261,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.838594,
+          40.907516
+        ]
+      },
+      "properties": {
+        "id": 68261,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Mohawk Inn Restaurant",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Mack McGee",
+        "owner_gender": "M",
+        "address": "142 S. 7th Ave.",
+        "address2": "",
+        "city": "Mt. Vernon",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68262,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.792965,
+          40.915924
+        ]
+      },
+      "properties": {
+        "id": 68262,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Daniel's Pharmacy",
+        "business_type": "Pharmacy",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "C.H. Daniels, Ph. G",
+        "owner_gender": "M",
+        "address": "57 Winyah Ave.",
+        "address2": "",
+        "city": "New Rochelle",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68263,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.789259,
+          40.896986
+        ]
+      },
+      "properties": {
+        "id": 68263,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Glen Island",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "Weyman Ave.",
+        "city": "New Rochelle",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68264,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.786896,
+          40.916865
+        ]
+      },
+      "properties": {
+        "id": 68264,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Harris Tea Room",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "29 Morris St.",
+        "address2": "",
+        "city": "New Rochelle",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68265,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.788353,
+          40.917467
+        ]
+      },
+      "properties": {
+        "id": 68265,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Club Sky Vue",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "2 Brook St.",
+        "address2": "",
+        "city": "New Rochelle",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68266,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.78902,
+          40.919427
+        ]
+      },
+      "properties": {
+        "id": 68266,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Bal-Mo-Ral Grill",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "J. Weeks",
+        "owner_gender": "Unknown",
+        "address": "56 Brook St.",
+        "address2": "",
+        "city": "New Rochelle",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68267,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.792835,
+          40.916016
+        ]
+      },
+      "properties": {
+        "id": 68267,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Proger's Dining Room",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "50 Winyah Ave.",
+        "address2": "",
+        "city": "New Rochelle",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68268,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.792786,
+          40.915832
+        ]
+      },
+      "properties": {
+        "id": 68268,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Week's Restaurant",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Julius Weeks",
+        "owner_gender": "M",
+        "address": "68 Winyah Ave.",
+        "address2": "",
+        "city": "New Rochelle",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68269,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.836566,
+          40.906492
+        ]
+      },
+      "properties": {
+        "id": 68269,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Pitt's Restaurant",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Adella Pitts",
+        "owner_gender": "F",
+        "address": "24 W. 3rd St.",
+        "address2": "",
+        "city": "Mt. Vernon",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68270,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952977,
+          40.807457
+        ]
+      },
+      "properties": {
+        "id": 68270,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Ace Auto Supply",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "207 St. Nicholas Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68271,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936825,
+          40.819874
+        ]
+      },
+      "properties": {
+        "id": 68271,
+        "edition": "1937",
+        "year": 1937,
+        "name": "A. L. Eastmond Auto Blacksmith",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "A. L. Eastmond",
+        "owner_gender": "M",
+        "address": "37 W. 144th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68272,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936899,
+          40.819774
+        ]
+      },
+      "properties": {
+        "id": 68272,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Al's Garage",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Cleo Davis",
+        "owner_gender": "M",
+        "address": "38-44 W. 144th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68273,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936737,
+          40.827236
+        ]
+      },
+      "properties": {
+        "id": 68273,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Alexander's Motors",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "153rd St.",
+        "address2": "153rd St. and Macombs Place",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68274,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962295,
+          40.588038
+        ]
+      },
+      "properties": {
+        "id": 68274,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Carlos Dick Radio Reparing",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Carlos Dick",
+        "owner_gender": "M",
+        "address": "2540 7th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68275,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.929287,
+          40.810189
+        ]
+      },
+      "properties": {
+        "id": 68275,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Clanrod Jones Automobile Technician",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Clanrod Jones",
+        "owner_gender": "M",
+        "address": "25 E. 136th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68276,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940896,
+          40.830663
+        ]
+      },
+      "properties": {
+        "id": 68276,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Gene's Auto Repairs",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "414 W. 155th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68277,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948378,
+          40.816066
+        ]
+      },
+      "properties": {
+        "id": 68277,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Daly Bros. Auto Supplies",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "484 St. Nicholas St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68278,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936213,
+          40.820715
+        ]
+      },
+      "properties": {
+        "id": 68278,
+        "edition": "1937",
+        "year": 1937,
+        "name": "H. G. Facey First Class Auto Painting",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "H. G. Facey",
+        "owner_gender": "M",
+        "address": "705 Lenox Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68279,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937421,
+          40.820913
+        ]
+      },
+      "properties": {
+        "id": 68279,
+        "edition": "1937",
+        "year": 1937,
+        "name": "J. Jones General Auto Repairs",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "J. Jones",
+        "owner_gender": "M",
+        "address": "120 W. 145th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68280,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943311,
+          40.821664
+        ]
+      },
+      "properties": {
+        "id": 68280,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Eighth Ave. Auto Painting and Body Shop",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "306-8 W. 143rd St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68281,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938243,
+          40.817461
+        ]
+      },
+      "properties": {
+        "id": 68281,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Martinez Tire Shop",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "612 Lenox Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68282,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.934256,
+          40.852916
+        ]
+      },
+      "properties": {
+        "id": 68282,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Lou Price Auto Sales",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Lou Price",
+        "owner_gender": "M",
+        "address": "4330 Broadway",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68283,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937332,
+          40.818768
+        ]
+      },
+      "properties": {
+        "id": 68283,
+        "edition": "1937",
+        "year": 1937,
+        "name": "R. & S. Auto Electricians",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "W. Ramsey, H. Shields",
+        "owner_gender": "M",
+        "address": "646 Lenox Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68284,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938132,
+          40.821273
+        ]
+      },
+      "properties": {
+        "id": 68284,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Pep 'Em Up Auto Electric Service",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Gordon Seale",
+        "owner_gender": "M",
+        "address": "155 W. 145th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68285,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935724,
+          40.827726
+        ]
+      },
+      "properties": {
+        "id": 68285,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Viaduct Automotive Service",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Frank Mirrop",
+        "owner_gender": "M",
+        "address": "101 Macombs Place",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68286,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.937234,
+          40.820543
+        ]
+      },
+      "properties": {
+        "id": 68286,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Richard's General Auto Repair",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "112 W. 145th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68287,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.936167,
+          40.820707
+        ]
+      },
+      "properties": {
+        "id": 68287,
+        "edition": "1937",
+        "year": 1937,
+        "name": "W. J. McAvoy Expert Reparing",
+        "business_type": "Automotive",
+        "category_group": "Auto: Gas, Garages & Transport",
+        "owner_name": "W. J. McAvoy",
+        "owner_gender": "M",
+        "address": "703 Lenox Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#C62828",
+        "marker-symbol": "Gas & Automotive"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68288,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941764,
+          40.828294
+        ]
+      },
+      "properties": {
+        "id": 68288,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Julia's",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "35 St. Nicholas Place",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68289,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945706,
+          40.812281
+        ]
+      },
+      "properties": {
+        "id": 68289,
+        "edition": "1937",
+        "year": 1937,
+        "name": "La Ritz Beauty Salon",
+        "business_type": "Beauty Parlor",
+        "category_group": "Personal Care: Barber, Beauty & Tailors",
+        "owner_name": "Bernice Bruton",
+        "owner_gender": "F",
+        "address": "2205 7th Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#00838F",
+        "marker-symbol": "Barber, Beauty & Tailors"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68290,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.942365,
+          40.831363
+        ]
+      },
+      "properties": {
+        "id": 68290,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Goldman's Wine and Liquors",
+        "business_type": "Liquor Store",
+        "category_group": "Nightlife: Taverns & Clubs",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "483 w. 155th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#8E24AA",
+        "marker-symbol": "Taverns & Nightlife"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68291,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962848,
+          40.804316
+        ]
+      },
+      "properties": {
+        "id": 68291,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Cathedral of St. John the Divine",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "1047 Amsterdam Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68292,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00723,
+          40.713047
+        ]
+      },
+      "properties": {
+        "id": 68292,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Ellis Island",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "Coordinates from Google maps",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68293,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996463,
+          40.715772
+        ]
+      },
+      "properties": {
+        "id": 68293,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Chinatown",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "50 Bowery",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68294,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962896,
+          40.778189
+        ]
+      },
+      "properties": {
+        "id": 68294,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Central Park",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "1000 5th Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68295,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007019,
+          40.713311
+        ]
+      },
+      "properties": {
+        "id": 68295,
+        "edition": "1937",
+        "year": 1937,
+        "name": "New York City Hall",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "City Hall Park",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68296,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.978709,
+          40.758766
+        ]
+      },
+      "properties": {
+        "id": 68296,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Rockafeller Center",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "30 Rockefeller Plaza",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68297,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00723,
+          40.713047
+        ]
+      },
+      "properties": {
+        "id": 68297,
+        "edition": "1937",
+        "year": 1937,
+        "name": "The George Washington Bridge",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "Coordinates from Google maps",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68298,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985626,
+          40.748862
+        ]
+      },
+      "properties": {
+        "id": 68298,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Empire State Building",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "20 W 34th St",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68299,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00723,
+          40.713047
+        ]
+      },
+      "properties": {
+        "id": 68299,
+        "edition": "1937",
+        "year": 1937,
+        "name": "The Holland Tunnel",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "Coordinates from Google maps",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68300,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.994628,
+          40.750633
+        ]
+      },
+      "properties": {
+        "id": 68300,
+        "edition": "1937",
+        "year": 1937,
+        "name": "The General Post Office",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "441 8th Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00723,
+          40.713047
+        ]
+      },
+      "properties": {
+        "id": 68301,
+        "edition": "1937",
+        "year": 1937,
+        "name": "The Tri-Borough Bridge",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "Coordinates from Google maps. Also called the Robert F. Kennedy Bridge.",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68302,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00723,
+          40.713047
+        ]
+      },
+      "properties": {
+        "id": 68302,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Crugers Park",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68303,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.980169,
+          40.760217
+        ]
+      },
+      "properties": {
+        "id": 68303,
+        "edition": "1937",
+        "year": 1937,
+        "name": "The Theatrical District of NY",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "1260 6th Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945778,
+          40.816151
+        ]
+      },
+      "properties": {
+        "id": 68304,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Gailliard Press Inc.",
+        "business_type": "Printer",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "262 W. 135th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68305,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972472,
+          40.78106
+        ]
+      },
+      "properties": {
+        "id": 68305,
+        "edition": "1937",
+        "year": 1937,
+        "name": "The Hayden Planetarium",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "200 Central Park West",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68306,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940708,
+          40.814479
+        ]
+      },
+      "properties": {
+        "id": 68306,
+        "edition": "1937",
+        "year": 1937,
+        "name": "New Manhattan Restaurant",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "503 Lenox Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68307,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943361,
+          40.828211
+        ]
+      },
+      "properties": {
+        "id": 68307,
+        "edition": "1937",
+        "year": 1937,
+        "name": "La Fontaine Service",
+        "business_type": "Tailor/Cleaning",
+        "category_group": "Personal Care: Barber, Beauty & Tailors",
+        "owner_name": "Katherine Fontaine",
+        "owner_gender": "F",
+        "address": "470 Convent Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#00838F",
+        "marker-symbol": "Barber, Beauty & Tailors"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68308,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.78817,
+          41.128242
+        ]
+      },
+      "properties": {
+        "id": 68308,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Donhaven",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "160 Marble Ave.",
+        "address2": "",
+        "city": "Pleasantville",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68309,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.792431,
+          41.133369
+        ]
+      },
+      "properties": {
+        "id": 68309,
+        "edition": "1937",
+        "year": 1937,
+        "name": "White Tower Lodge",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Scott Bros.",
+        "owner_gender": "M",
+        "address": "",
+        "address2": "",
+        "city": "Pleasantville",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68310,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943172,
+          40.826208
+        ]
+      },
+      "properties": {
+        "id": 68310,
+        "edition": "1937",
+        "year": 1937,
+        "name": "La Fontaine Service",
+        "business_type": "Tailor/Cleaning",
+        "category_group": "Personal Care: Barber, Beauty & Tailors",
+        "owner_name": "Elliott Fontaine",
+        "owner_gender": "M",
+        "address": "764 St. Nicholas Ave.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#00838F",
+        "marker-symbol": "Barber, Beauty & Tailors"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68311,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.943613,
+          40.816121
+        ]
+      },
+      "properties": {
+        "id": 68311,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Little Alpha Cleaners",
+        "business_type": "Tailor/Cleaning",
+        "category_group": "Personal Care: Barber, Beauty & Tailors",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "200 W. 136th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#00838F",
+        "marker-symbol": "Barber, Beauty & Tailors"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68312,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947383,
+          40.804374
+        ]
+      },
+      "properties": {
+        "id": 68312,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Little Alpha Cleaners",
+        "business_type": "Tailor/Cleaning",
+        "category_group": "Personal Care: Barber, Beauty & Tailors",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "84 W. 120th St.",
+        "address2": "",
+        "city": "New York City",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#00838F",
+        "marker-symbol": "Barber, Beauty & Tailors"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.833141,
+          40.767475
+        ]
+      },
+      "properties": {
+        "id": 68313,
+        "edition": "1937",
+        "year": 1937,
+        "name": "The New York World's Fair",
+        "business_type": "Point of Interest",
+        "category_group": "Retail, Services & Other",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "Flushing Meadows Corona Park",
+        "city": "Queens",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#6D4C41",
+        "marker-symbol": "Retail & Other Services"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68314,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.866047,
+          41.092742
+        ]
+      },
+      "properties": {
+        "id": 68314,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Kingsland Point Park",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "Palmer Ave.",
+        "city": "Sleepy Hollow",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68315,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.75919,
+          40.97737
+        ]
+      },
+      "properties": {
+        "id": 68315,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Saxon Woods Golf Club",
+        "business_type": "Golf Club",
+        "category_group": "Nightlife: Taverns & Clubs",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "315 Mamaroneck Rd.",
+        "address2": "",
+        "city": "Scarsdale",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#8E24AA",
+        "marker-symbol": "Taverns & Nightlife"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68316,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.823673,
+          40.949165
+        ]
+      },
+      "properties": {
+        "id": 68316,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Al's Barber Shop",
+        "business_type": "Barber Shop",
+        "category_group": "Personal Care: Barber, Beauty & Tailors",
+        "owner_name": "Al Henderson",
+        "owner_gender": "M",
+        "address": "144 Main St.",
+        "address2": "",
+        "city": "Tuckahoe",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#00838F",
+        "marker-symbol": "Barber, Beauty & Tailors"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68317,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.823673,
+          40.949165
+        ]
+      },
+      "properties": {
+        "id": 68317,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Shahana Beauty Salon",
+        "business_type": "Beauty Parlor",
+        "category_group": "Personal Care: Barber, Beauty & Tailors",
+        "owner_name": "Hanna Starvis, Jaunita Lopez",
+        "owner_gender": "F",
+        "address": "144 Main St.",
+        "address2": "",
+        "city": "Tuckahoe",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#00838F",
+        "marker-symbol": "Barber, Beauty & Tailors"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68318,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.824046,
+          40.948044
+        ]
+      },
+      "properties": {
+        "id": 68318,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Major's Lunch Room",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "48 Washington St.",
+        "address2": "",
+        "city": "Tuckahoe",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68319,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.824342,
+          40.948432
+        ]
+      },
+      "properties": {
+        "id": 68319,
+        "edition": "1937",
+        "year": 1937,
+        "name": "The Butterfly Inn  Restaurant",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Juanita Lopez",
+        "owner_gender": "F",
+        "address": "47 Washington St.",
+        "address2": "",
+        "city": "Tuckahoe",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68320,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.508295,
+          40.59597
+        ]
+      },
+      "properties": {
+        "id": 68320,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Jones Beach",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "2400 Ocean Parkway",
+        "address2": "",
+        "city": "Wantagh",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68321,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.708019,
+          40.66772
+        ]
+      },
+      "properties": {
+        "id": 68321,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Valley Stream",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "",
+        "address2": "",
+        "city": "Valley Stream",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68322,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.665668,
+          41.000478
+        ]
+      },
+      "properties": {
+        "id": 68322,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Royal Garden",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "14 New Broad St.",
+        "address2": "",
+        "city": "Portchester",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.648979,
+          40.675975
+        ]
+      },
+      "properties": {
+        "id": 68323,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Hempstead Lake",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "1000 Lake Drive",
+        "address2": "",
+        "city": "West Hempstead",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.77026,
+          41.03068
+        ]
+      },
+      "properties": {
+        "id": 68324,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Southern Restaurant",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "118 Martino Ave.",
+        "address2": "",
+        "city": "White Plains",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68325,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.770392,
+          41.030661
+        ]
+      },
+      "properties": {
+        "id": 68325,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Lloyd's",
+        "business_type": "Dining/Dancing",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "W. Bernard",
+        "owner_gender": "Unknown",
+        "address": "88 Martine Ave.",
+        "address2": "",
+        "city": "White Plains",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68326,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.848392,
+          40.963748
+        ]
+      },
+      "properties": {
+        "id": 68326,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Sprain Lake",
+        "business_type": "Golf Club",
+        "category_group": "Nightlife: Taverns & Clubs",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "290 E Grassy Sprain Rd.",
+        "address2": "",
+        "city": "Yonkers",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#8E24AA",
+        "marker-symbol": "Taverns & Nightlife"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.874667,
+          40.925419
+        ]
+      },
+      "properties": {
+        "id": 68327,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Tibbets Brook Park",
+        "business_type": "Recreation",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "355 Midland Ave.",
+        "address2": "",
+        "city": "Yonkers",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68328,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.867728,
+          40.959541
+        ]
+      },
+      "properties": {
+        "id": 68328,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Conrad's Inn Restaurant",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "G. E. Chellis",
+        "owner_gender": "Unknown",
+        "address": "15 Monroe St.",
+        "address2": "",
+        "city": "Yonkers",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68329,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.727249,
+          41.001955
+        ]
+      },
+      "properties": {
+        "id": 68329,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Maple Moor Golf Club",
+        "business_type": "Golf Club",
+        "category_group": "Nightlife: Taverns & Clubs",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "1128 North St.",
+        "address2": "",
+        "city": "White Plains",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#8E24AA",
+        "marker-symbol": "Taverns & Nightlife"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68330,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.895732,
+          40.930726
+        ]
+      },
+      "properties": {
+        "id": 68330,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Lucy's Grill",
+        "business_type": "Restaurant",
+        "category_group": "Dining: Restaurants",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "231 New Main St.",
+        "address2": "",
+        "city": "Yonkers",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#EF6C00",
+        "marker-symbol": "Restaurants"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68331,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.812946,
+          41.293616
+        ]
+      },
+      "properties": {
+        "id": 68331,
+        "edition": "1937",
+        "year": 1937,
+        "name": "Mohansic Park Golf Club",
+        "business_type": "Golf Club",
+        "category_group": "Nightlife: Taverns & Clubs",
+        "owner_name": "Unknown",
+        "owner_gender": "Unknown",
+        "address": "2957 Crompond Rd.",
+        "address2": "",
+        "city": "Yorktown Heights",
+        "state": "NY",
+        "country": "United States",
+        "source_type": "Advertisement",
+        "book_notes": "",
+        "data_editor_notes": "",
+        "info_link": "",
+        "photo_link": "",
+        "marker-color": "#8E24AA",
+        "marker-symbol": "Taverns & Nightlife"
+      }
+    }
+  ]
+}
